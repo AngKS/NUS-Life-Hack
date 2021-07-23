@@ -1,0 +1,252 @@
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 32px;
+    min-width: 1426px;
+}
+
+.starter {
+    align-items: flex-start;
+    display: flex;
+    height: 496px;
+    justify-content: center;
+    min-width: 402px;
+}
+
+.overlap-group {
+    align-items: center;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60fb38268710c213142d3202/releases/60fb49248710c213142d321c/img/backtround-1@1x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: -22.5px;
+    min-height: 541px;
+    padding: 60.2px 48.9px;
+    width: 447px;
+}
+
+.title {
+    letter-spacing: 0;
+    line-height: 56px;
+    margin-left: 3.0px;
+    margin-top: 10px;
+    min-height: 71px;
+    min-width: 184px;
+    white-space: nowrap;
+}
+
+.description {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 54px;
+    min-height: 76px;
+    min-width: 346px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.x399-mo {
+    letter-spacing: 0;
+    line-height: 49px;
+    margin-left: 2.0px;
+    margin-top: 70px;
+    min-height: 62px;
+    min-width: 216px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.join-button {
+    align-items: flex-end;
+    background-color: var(--dodger-blue);
+    border-radius: 20px;
+    display: flex;
+    height: 69px;
+    justify-content: flex-end;
+    margin-left: 1.0px;
+    margin-top: 6px;
+    min-width: 186px;
+    padding: 10.5px 24px;
+}
+
+.im-ready {
+    letter-spacing: 0;
+    line-height: 30px;
+    min-height: 39px;
+    min-width: 135px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.the {
+    align-items: flex-start;
+    display: flex;
+    height: 496px;
+    justify-content: center;
+    margin-left: 110px;
+    min-width: 402px;
+}
+
+.overlap-group1 {
+    align-items: center;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60fb38268710c213142d3202/releases/60fb49248710c213142d321c/img/backtround-1@1x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: -22.5px;
+    min-height: 541px;
+    padding: 54.2px 35.4px;
+    width: 447px;
+}
+
+.the-study-one {
+    align-self: flex-end;
+    color: var(--cello);
+    font-family: var(--font-family-rigsans-bold);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin-top: 13px;
+    min-height: 69px;
+    min-width: 375px;
+    white-space: nowrap;
+}
+
+.description-1 {
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-left: 2.0px;
+    margin-top: 41px;
+    min-height: 150px;
+    min-width: 346px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.x699-mo {
+    letter-spacing: 0;
+    line-height: 49px;
+    margin-left: 2.0px;
+    margin-top: 16px;
+    min-height: 62px;
+    min-width: 218px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.join-button-1 {
+    align-items: flex-end;
+    background-color: var(--dodger-blue);
+    border-radius: 20px;
+    display: flex;
+    height: 69px;
+    justify-content: flex-end;
+    margin-top: 10px;
+    min-width: 186px;
+    padding: 10.5px 37px;
+}
+
+.lets-go {
+    letter-spacing: 0;
+    line-height: 30px;
+    min-height: 39px;
+    min-width: 110px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.overlap-group2 {
+    align-items: center;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/60fb38268710c213142d3202/releases/60fb49248710c213142d321c/img/backtround-1@1x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: -22.5px;
+    min-height: 541px;
+    padding: 55.2px 49.4px;
+    width: 447px;
+}
+
+.the-monster {
+    letter-spacing: 0;
+    line-height: 56px;
+    margin-left: 2.0px;
+    margin-top: 3px;
+    min-height: 71px;
+    min-width: 335px;
+    white-space: nowrap;
+}
+
+.description-2 {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-top: 44px;
+    min-height: 150px;
+    min-width: 346px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.x999-mo {
+    letter-spacing: 0;
+    line-height: 49px;
+    margin-left: 2.0px;
+    margin-top: 13px;
+    min-height: 62px;
+    min-width: 214px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.join-button-2 {
+    align-items: flex-end;
+    background-color: var(--dodger-blue);
+    border-radius: 20px;
+    display: flex;
+    height: 69px;
+    justify-content: flex-end;
+    margin-top: 16px;
+    min-width: 186px;
+    padding: 10.5px 45px;
+}
+
+.hit-me {
+    letter-spacing: 0;
+    line-height: 30px;
+    min-height: 39px;
+    min-width: 94px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.text-1 {
+    align-self: center;
+    color: var(--cello);
+    font-family: var(--font-family-rig_sans);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-right: 39.0px;
+    margin-top: 62px;
+    min-height: 27px;
+    min-width: 397px;
+    white-space: nowrap;
+}
+
+.span1 {
+    color: var(--dodger-blue);
+    font-family: var(--font-family-rigsans-medium);
+    text-decoration: underline;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    box-sizing: border-box;
+}

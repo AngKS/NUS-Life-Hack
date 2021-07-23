@@ -5,7 +5,7 @@ import CourseCard from './coursecard/CourseCard'
 
 
 
-function Courses() {
+function CourseList() {
 
     const [courses, setCourses] = useState()
 
@@ -37,4 +37,4 @@ function Courses() {
     )
 }
 
-export default Courses
+export default CourseList

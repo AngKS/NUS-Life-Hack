@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import Home from './components/pages/Home'
-import Courses from './components/courses/Courses';
+import Courses from './components/pages/Courses';
 import Community from './components/pages/Community';
 import Login from './components/pages/Login';
 // import Profile from './components/pages/Profile'

@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
-import Courses from "../courses/Courses";
 import Banner from "../homeBanner/Banner";
+import CoursesList from "../courses/CourseList";
 // import "./Home.css";
 
 function Home() {
@@ -55,7 +55,7 @@ function Home() {
         <hr />
         <h1>Guess what you like</h1>
 
-        <Courses />
+        <CoursesList />
         
 
       </section>
