@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
 import Courses from "../courses/Courses";
+import Banner from "../homeBanner/Banner";
 // import "./Home.css";
 
 function Home() {
@@ -23,7 +24,8 @@ function Home() {
             
           </div>
           <div className="col-md-7">
-            <h1>Images</h1>
+            {/* <h1>Images</h1> */}
+            <Banner />
           </div>
         </div>
         <hr />
