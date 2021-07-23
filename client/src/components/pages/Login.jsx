@@ -32,6 +32,7 @@ function Login() {
     let logOut = () => {
         localStorage.clear()
         window.location.reload(false)
+            
     }
 
     useEffect(() => {
@@ -67,8 +68,8 @@ function Login() {
                     </div>  
                 </div>
                 {(loggedIn) ?
-                    <div class="toast bg-success">
-                        <div class="toast-header text-center">
+                    <div class="alert alert-success">
+                        <div class="text-center">
                             Successfully Logged in! Welcome back {loggedIn[0].username}
                         </div>
                         

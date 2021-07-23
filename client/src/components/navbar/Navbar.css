@@ -1,13 +1,16 @@
-/* Something new */
-
 .navbar {
-    background-color: #2f3b54;
     height: 80px;
     display: flex;
     font-size: 1.2rem;
     top: 0;
     z-index: 999;
     text-decoration: none;
+}
+
+.navbar-custome-color {
+    background-color: rgba(223, 236, 239, 0.3);
+    backdrop-filter: blur(5px);
+    color: #dcddde;
 }
 
 .navbar-container {
@@ -19,13 +22,20 @@
 }
 
 .navbar-logo {
-    color: #fff;
+    color: #2289FF;
     /* justify-self: start; */
     cursor: pointer;
+    font-family: playfair-display, serif;
+    font-weight: 700;
+    font-style: normal;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     float: left;
+}
+
+.navbar_logo:hover {
+    color: #2289FF !important;
 }
 
 .nav-menu {
@@ -37,23 +47,29 @@
     margin: 0 !important;
 }
 
+.nav-menu.active {
+    color: black;
+}
 
 .nav-item {
     height: 100%;
 }
 
 .nav-links {
-    color: #fff;
+    color: #14395B;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-family: rig-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .nav-links:hover {
     text-decoration: none;
-    color: aqua;
+    color: #2289FF;
     /* border-bottom: 4px solid #fff; */
     transition: all 0.2s ease-out;
 }

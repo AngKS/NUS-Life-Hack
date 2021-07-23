@@ -4,7 +4,7 @@
 function Banner() {
     return (
 
-        <div>
+        <div className='container'>
             <div className="overlap-group">
                 <div className="o-level smart-layers-pointers">
                     <div className="overlap-group1">

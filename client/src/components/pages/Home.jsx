@@ -23,8 +23,8 @@ function Home() {
 
             
           </div>
-          <div className="col-md-7">
-            <h1>Images</h1>
+          <div className="col-md-7 container-fluid mx-0">
+            {/* <h1>Images</h1> */}
             {/* <Banner /> */}
           </div>
         </div>
