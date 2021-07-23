@@ -7,6 +7,7 @@
     font-size: 1.2rem;
     top: 0;
     z-index: 999;
+    text-decoration: none;
 }
 
 .navbar-container {
@@ -53,7 +54,7 @@
 .nav-links:hover {
     text-decoration: none;
     color: aqua;
-    border-bottom: 4px solid #fff;
+    /* border-bottom: 4px solid #fff; */
     transition: all 0.2s ease-out;
 }
 

@@ -22,7 +22,7 @@
 .home_content > div:first-child {
  position:absolute;
  transform: translate(-50%,-50%);
- top:50%;
+ top:40%;
  left: 50%;
 }
 
