@@ -1,49 +1,44 @@
-
-
 /* Something new */
 
 .navbar {
     background-color: #2f3b54;
     height: 80px;
     display: flex;
-    
     font-size: 1.2rem;
     top: 0;
     z-index: 999;
 }
 
 .navbar-container {
-    display: flex;
+    display: contents;
     align-items: center;
-    height: 80px;
-    padding:10px;
+    height: 100%;
+    /* padding: 10px; */
     width: 100%;
 }
 
 .navbar-logo {
     color: #fff;
-    justify-self: start;
+    /* justify-self: start; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
+    float: left;
 }
-
-
 
 .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
+    float: right;
+    display: inline-flex;
     list-style: none;
     text-align: center;
-    width: 60vw;
-    justify-content: end;
-    
+    justify-content: right;
+    margin: 0 !important;
 }
 
+
 .nav-item {
-    height: 80px;
+    height: 100%;
 }
 
 .nav-links {
@@ -57,7 +52,7 @@
 
 .nav-links:hover {
     text-decoration: none;
-    color:aqua;
+    color: aqua;
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
 }
@@ -74,7 +69,7 @@
     display: none;
 }
 
-.profilePic{
+.profilePic {
     width: 40px;
     height: 40px;
     margin-right: 8px;
