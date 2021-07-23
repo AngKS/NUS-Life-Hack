@@ -17,14 +17,16 @@ function Courses() {
     }, [])
 
     return (
-        <div>
+        <div className="container">
             {
                 (courses)? (
                     <div>
                         {
                             courses.map(course => {
                                 return (
-                                    <CourseCard course={course} />
+                                    <div className="row d-flex">
+                                        <CourseCard course={course} />
+                                    </div>
                                 )
                             })
                         }

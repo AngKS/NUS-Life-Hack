@@ -1,32 +1,25 @@
 import React from 'react'
-// import "./coursecard.css"
+import "./coursecard.css"
 
 function CourseCard({ course }) {
     return (
-        <div className="listing-block">
-
-            <div className="row thumbnail">
-                <img src="" alt="" />
-            </div>
-            <div className="row course-title">
-                <p>{course.courseName}</p>
-            </div>
-            <div className="row">
-                <div className="students">
-                    {course.studentCount} Students
+        <div className="card-container col-md-3">
+            <div className="card-body">
+                <h3 className="card-title">{course.courseName}</h3>
+                <div className="card-text">
+                    <section className="row d-inline">
+                        <h6 className="float-left">{course.studentCount} Students</h6>
+                        <h6 className="float-right">{course.duration}</h6>
+                    </section>
                 </div>
-                <div className="time">
-                    {course.duration}
-                </div>
+                    <hr />
+                    <section className="row d-inline card-subtitle">
+                        <h6 className="float-left">by {course.tutor}</h6>
+                        <h6 className="float-right">{course.rating}</h6>
+                    </section>
+                
             </div>
-            <div className="row lecture">
 
-                {course.tutor}
-                <div className="rating">
-                    {course.rating}
-                </div>
-
-            </div>
         </div>
     )
 }
