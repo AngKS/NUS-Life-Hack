@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Raleway:wght@200&display=swap');
+
+/* General site styling and formating */
+*::-webkit-scrollbar{
+    display: none;
+  }
+
+.site{
+    /* Layout */
+    /* position: relative; */
+    height: 10000px;
+    /* Styling */
+    background-image: url('../Images/Background.PNG');
+    
+}
+
+.home_content{
+    position: absolute;
+    top: 40%;
+
+}
+
+/* Title and Button Formating */
+h1,h5{
+    /* Styling */
+    color: white;
+    font-family: 'Didact Gothic';
+}
+
+h1.title{
+    /* Layout */
+    /* position: relative; */
+    top: -65px; 
+    /* Styling */
+    font-size:80px;  
+}
+
+h5.subtitle{
+    /* Layout */
+    /* position: relative; */
+    top: 30px;
+    /* Styling */
+    font-weight: 400;   
+}
+
+/* Button styling */
+.button_home{
+    /* Layout */
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    /* Styling */
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Raleway';
+} 
+
+.Left_btn{
+    /* Styling */
+    background-color: #ffd14e;
+}
+
+.Right_btn{
+
+    /* Styling */
+    background-color: #baeca8;
+}

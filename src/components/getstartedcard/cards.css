@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.Getstart{
+    height: 1000px;
+    background-image: url("../Images/Getstarted_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+.Getstart_title{
+    font-size: 40px;
+    font-family: 'Didact Gothic';
+}
+
+.Getstart_button{
+    margin: auto;
+    width: 300px;
+    color: white;
+    background-color: #70cee9ff;
+    font-family: 'Didact Gothic';
+}
+
+.Getstart_content{
+    position: absolute;
+    top: 43%;
+    left: 29%;
+    width: 800px;
+    height: 300px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+}
+
+.card-title{
+    color: black;
+}
+  
+.Getstart_name::placeholder{
+    color:white;
+    font-size: 30px;
+    font-family: 'Didact Gothic';
+}
+
+.Getstart_name{
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    height: 130px;
+    width: 600px;
+    background-color: #b7b7b7ff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    font-family: 'Didact Gothic';
+}
+
+.Next{
+    position: relative;
+    top:20px;
+}
+
+.Getstart_content_big{
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    width: 1300px;
+    height: 700px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+}
+
+.arrow{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top: -150px;
+    left: 550px;
+    color: #b6d7a8ff;
+}
+
+.arrow_s{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top: -199px;
+    left: 550px;
+    color: #b6d7a8ff;
+}
+
+.arrow_c{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top: 70px;
+    left: 550px;
+    color: #b6d7a8ff;
+}
+
+.arrow_g{
+    cursor: pointer;
+    font-size:48px;
+    position: relative;
+    top:-500px;
+    left: 550px;
+    text-decoration: none;
+    color: #990000;
+}
+.rose{
+    color: #e69138;
+    font-family: 'Didact Gothic';
+}
+
+.Hello{
+    position: relative;
+    top:40%;
+    font-family: 'Didact Gothic';
+}
+
+.Hello_g{
+    position: relative;
+    top:20%;
+    font-family: 'Didact Gothic';
+}
+
+.pic{
+    position: relative;
+    top: -10%;
+}
+
+.pic_s{
+    position: relative;
+    top: -17%;
+}
+
+.simple{
+    color: #8365cc;
+}
+
+.cats{
+    position: relative;
+    top: 10%;
+    left: -5%;
+    max-height: 90%;
+    max-width: 90%;
+}
+.cats2{
+    position: relative;
+    top: 13%;
+    left: 2%;
+    max-height: 85%;
+    max-width: 85%;
+}
+.meow{
+    -webkit-appearance: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.girl{
+    position: relative;
+    top: -300px;
+    left: -280px;
+}
+
+.badger{
+    position: relative;
+    left: 38%;
+    top: 170px;
+}

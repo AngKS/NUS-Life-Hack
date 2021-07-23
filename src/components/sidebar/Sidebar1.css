@@ -1,0 +1,44 @@
+.wrapper{
+    display: block;
+    display: flex;
+    width: 100%;
+}
+.padding{
+    margin-left:50px ;
+}
+._row{
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background: #cdefe5ff;
+    color: black;
+    transition: all 0.3s;
+}
+.nav-item1{
+    width: 100%;
+}
+/* .nav-item2{
+    width: 150px;
+}
+.nav-item3{
+    width: 150px;
+}
+.nav-item4{
+    width: 150px;
+} */
+.tutorial{
+    font-size: 30px;
+}
+.beginner{
+    width: 100%;
+    font-size: 20px;
+}
+.sidebar-item:hover{
+    background-color: rgb(91, 182, 155);
+}
+.advanced{
+    font-size: 20px;
+}
+.cheatsheet{
+    font-size: 30px;
+}
