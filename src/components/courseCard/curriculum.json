@@ -1,0 +1,28 @@
+{
+    "Courses" : [
+        {
+            "courseName" : "Introduction to Programming",
+            "courseID" : "IP001",
+            "duration" : 4,
+            "notes" : null,
+            "language" : "python",
+            "content" : [
+                "First step towards programming is:",
+                "First step towards programming is:",
+                "First step towards programming is:"
+
+            ],
+            "media" : "",
+            "author" : "AKS"
+        },
+        {
+            "courseName" : "Fundamentals of Data Analytics",
+            "courseID" : "IP001",
+            "duration" : 4,
+            "notes" : null,
+            "language": "python",
+            "content": [],
+            "author" : "AKS"
+        }
+    ]
+}

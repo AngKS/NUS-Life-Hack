@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import Firstcard from '../getstartedcard/Firstcard'
+import Course from '../courseCard/Course'
 
 function GetStarted() {
 
@@ -8,6 +9,7 @@ function GetStarted() {
         <div>
             <Navbar />
             <Firstcard />
+            {/* <Course /> */}
         </div>
     )
 }
