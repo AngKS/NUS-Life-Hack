@@ -11,6 +11,7 @@ let config = require("../config")
 // API models
 let user = require("../model/user")
 let course = require("../model/course")
+let articles = require("../model/articles")
 let verifyToken = require("../auth/verifyToken")
 const { countReset } = require("console")
 
@@ -140,6 +141,20 @@ app.post("/api/course", (req, res) => {
     })
 })
 
+
+// Get all blog posts
+
+app.get("/api/articles", (req, res) => {
+    articles.getAllArticles((err, result) => {
+        if (err) {
+            console.log(err)
+            return res.status(500).type("application/json").json({ "Message": "Internal Server Error" })
+        }
+        else {
+            return res.status(200).type("application/json").json(result)
+        }
+    })
+})
 
 app.use((req, res) => {
     res.status(404).send("<h1>🐶Doggo Can't find the API you want🐶</h1>")

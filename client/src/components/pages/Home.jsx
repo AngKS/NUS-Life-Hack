@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="site">
       <Navbar />
-      <div className="container-center-horizontal">
+      {/* <div className="container-center-horizontal">
         <div className="home screen">
           <div className="flex-row">
             <div className="flex-col">
@@ -306,7 +306,7 @@ function Home() {
           <Footer {...(footerProps ? footerProps : "")} />
         </div>
       </div>
-      );
+      ); */}
     </div>
   );
 }

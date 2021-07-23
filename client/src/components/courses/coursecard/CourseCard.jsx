@@ -6,15 +6,25 @@ function CourseCard({ course }) {
         <div className="listing-block">
 
             <div className="row thumbnail">
-                <img src={} alt="" />
+                <img src="" alt="" />
             </div>
             <div className="row course-title">
-                <p>{course}</p>
+                <p>{course.courseName}</p>
             </div>
             <div className="row">
+                <div className="students">
+                    {course.studentCount} Students
+                </div>
+                <div className="time">
+                    {course.duration}
+                </div>
+            </div>
+            <div className="row lecture">
 
-            </div>
-            <div className="row">
+                {course.tutor}
+                <div className="rating">
+                    {course.rating}
+                </div>
 
             </div>
         </div>
