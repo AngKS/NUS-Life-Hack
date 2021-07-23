@@ -28,7 +28,7 @@ let Course = {
         })
     },
 
-    addCourse : (courseName, duration, studentCount, tutor, rating, image, description, link) => {
+    addCourse : (courseName, duration, studentCount, tutor, rating, image, description, link, callback) => {
         let dbConnect = db.getConnection()
         dbConnect.connect((err) =>{
             if (err){

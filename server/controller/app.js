@@ -112,7 +112,31 @@ app.get("/courses", (req, res) => {
 
 // Add new Course
 app.post("/api/course", (req, res) => {
-    let 
+    let courseName = req.body.courseName
+    let duration = req.body.duration
+    let studentCount = req.body.studentCount
+    let tutor = req.body.tutor
+    let rating = req.body.rating
+    let image = req.body.image
+    let description = req.body.description
+    let link = req.body.link
+    
+    course.addCourse(courseName, duration, studentCount, tutor, rating, image, description, link, (err, result) => {
+        if (err){
+            if (err.errno == 1062){
+                console.log('Conflict Error')
+                res.status(409).type("application/json").json({status : 409, message : "Game already exists!"})
+            }
+            else{
+                console.log(err)
+            }
+        }
+        else{
+            res.status(200).type("application/json").json({status : 200, success: true, result: result, message: "Successfully added the new Game!"})
+            console.log(result)
+            
+        }
+    })
 })
 
 
