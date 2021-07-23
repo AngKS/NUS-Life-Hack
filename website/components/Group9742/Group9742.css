@@ -1,0 +1,51 @@
+.ig {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  margin-left: 11px;
+  min-width: 44px;
+  padding: 12.0px 12.0px;
+}
+
+.logo-ig {
+  height: 20px;
+  object-fit: cover;
+  width: 20px;
+}
+
+.ig-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  margin-left: 11px;
+  min-width: 44px;
+  padding: 12.0px 12.0px;
+}
+
+.logo-ig-1 {
+  height: 20px;
+  object-fit: cover;
+  width: 20px;
+}
+
+.ig-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  margin-left: 11px;
+  min-width: 44px;
+  padding: 12.0px 12.0px;
+}
+
+.logo-ig-2 {
+  height: 20px;
+  object-fit: cover;
+  width: 20px;
+}
+

@@ -1,0 +1,58 @@
+.button-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 66px;
+  margin-left: 481px;
+  min-width: 848px;
+  position: relative;
+}
+
+.place {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 5px;
+  min-height: 46px;
+  min-width: 102px;
+  white-space: nowrap;
+}
+
+.courses {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 134px;
+  white-space: nowrap;
+}
+
+.community {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 197px;
+  white-space: nowrap;
+}
+
+.pricing {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 117px;
+  white-space: nowrap;
+}
+
+.button-2.button-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 66px;
+  margin-left: 481px;
+  margin-top: 1.5px;
+  min-width: 848px;
+  position: relative;
+}
+

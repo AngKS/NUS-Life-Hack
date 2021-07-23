@@ -1,0 +1,206 @@
+:root { 
+  --black: #000000;
+  --blue-whale: #0b2f50;
+  --cello: #14395b;
+  --chicago: #5d5f61;
+  --concord: #7b7b7b;
+  --dodger-blue: #2289ff;
+  --dove-gray: #707070;
+  --mine-shaft: #313030;
+  --white: #ffffff;
+ 
+  --font-size-l: 23px;
+  --font-size-m: 22px;
+  --font-size-s: 18px;
+  --font-size-xl: 27px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 36px;
+  --font-size-xxs: 10px;
+ 
+  --font-family-notosans_cjk_kr-regular: "NotoSans CJK KR-Regular", Helvetica;
+  --font-family-playfair_display: "Playfair Display", Helvetica;
+  --font-family-rig_sans: "Rig Sans", Helvetica;
+  --font-family-rigsans-bold: "rig-sans", Helvetica;
+  --font-family-rigsans-medium: "rig-sans", Helvetica;
+  --font-family-rigsans-regular: "rig-sans", Helvetica;
+  --font-family-rigsans-semibold: "rig-sans", Helvetica;
+}
+.rigsans-regular-normal-cello-22px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-semi-bold-cello-27px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-regular-normal-dodger-blue-22px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-semi-bold-cello-36px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-regular-normal-chicago-18px {
+  color: var(--chicago);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rigsans-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-semi-bold-dodger-blue-36px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.notosanscjkkr-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-notosans_cjk_kr-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.playfairdisplay-bold-dodger-blue-69px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-playfair_display);
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rigsans-semi-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-concord-10px {
+  color: var(--concord);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-medium-dodger-blue-18px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.playfairdisplay-bold-dodger-blue-48px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-playfair_display);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.rigsans-regular-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-regular-normal-cello-29px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-medium-black-49px {
+  color: var(--black);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rigsans-medium-mine-shaft-23px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rigsans-bold-cello-58px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-bold);
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}

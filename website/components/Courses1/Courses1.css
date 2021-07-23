@@ -1,0 +1,299 @@
+.courses-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1487px;
+  overflow: hidden;
+  padding: 43px 0;
+  width: 1920px;
+}
+
+.overlap-group {
+  height: 92px;
+  margin-left: 1.0px;
+  position: relative;
+  width: 1595px;
+}
+
+.couse {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 16px #00000057;
+  display: flex;
+  height: 832px;
+  margin-top: 40px;
+  min-width: 1630px;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 832px;
+  width: 1114px;
+}
+
+.video {
+  height: 511px;
+  object-fit: cover;
+  width: 1114px;
+}
+
+.details {
+  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 321px;
+  padding: 33px 19px;
+  width: 1114px;
+}
+
+.title {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: 35px;
+  min-height: 46px;
+  white-space: nowrap;
+}
+
+.lorem-ipsum-dolor-s {
+  align-self: flex-end;
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 64px;
+  min-height: 102px;
+  min-width: 1041px;
+  white-space: nowrap;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13.0px;
+  margin-left: 22px;
+  min-height: 751px;
+  width: 444px;
+}
+
+.course1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #0000004f;
+  display: flex;
+  height: 166px;
+  justify-content: flex-end;
+  min-width: 444px;
+  padding: 0 15px;
+}
+
+.thumbnail {
+  border-radius: 15px;
+  height: 136px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.overlap-group1 {
+  height: 107px;
+  margin-left: 30px;
+  margin-top: 3.0px;
+  position: relative;
+  width: 177px;
+}
+
+.lesson-title {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.presenter {
+  left: 2px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 80px;
+  white-space: nowrap;
+}
+
+.course {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #0000004f;
+  display: flex;
+  height: 166px;
+  justify-content: flex-end;
+  margin-top: 29px;
+  min-width: 444px;
+  padding: 0 15px;
+}
+
+.overlap-group2 {
+  height: 109px;
+  margin-left: 30px;
+  margin-top: 5.0px;
+  position: relative;
+  width: 177px;
+}
+
+.presenter-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 82px;
+  white-space: nowrap;
+}
+
+.flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 14.0px;
+  min-height: 118px;
+  width: 177px;
+}
+
+.lesson-title-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  min-height: 90px;
+  white-space: nowrap;
+}
+
+.presenter-2 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: 2px;
+  margin-top: 1px;
+  min-height: 27px;
+  white-space: nowrap;
+}
+
+.flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 13.0px;
+  min-height: 117px;
+  width: 177px;
+}
+
+.presenter-3 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: 2px;
+  min-height: 27px;
+  white-space: nowrap;
+}
+
+.footer {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 76px;
+  min-width: 1938px;
+}
+
+.overlap-group1-1 {
+  height: 404px;
+  position: relative;
+  width: 1938px;
+}
+
+.mainbackground {
+  height: 331px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.slogan {
+  align-items: flex-end;
+  display: flex;
+  height: 200px;
+  left: 282px;
+  min-width: 328px;
+  position: absolute;
+  top: 90px;
+}
+
+.overlap-group2-1 {
+  height: 192px;
+  position: relative;
+  width: 328px;
+}
+
+.social {
+  align-items: flex-start;
+  display: flex;
+  height: 44px;
+  left: 54px;
+  min-width: 209px;
+  position: absolute;
+  top: 148px;
+}
+
+.ig {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  margin-left: 11px;
+  min-width: 44px;
+  padding: 12.0px 12.0px;
+}
+
+.logo-ig {
+  height: 20px;
+  object-fit: cover;
+  width: 20px;
+}
+
+.learned {
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.divider {
+  height: 4px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 328px;
+}
+
+.paragraph {
+  height: 94px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 64px;
+  width: 316px;
+}
+

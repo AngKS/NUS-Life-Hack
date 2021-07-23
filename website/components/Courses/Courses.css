@@ -1,0 +1,247 @@
+.courses-1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2651px;
+  overflow: hidden;
+  padding: 43px 0;
+  position: relative;
+  width: 1920px;
+}
+
+.overlap-group-5 {
+  height: 203px;
+  margin-left: 1.0px;
+  position: relative;
+  width: 1595px;
+}
+
+.header-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 203px;
+  position: absolute;
+  top: 0;
+  width: 1595px;
+}
+
+.flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 94px;
+  margin-top: 11px;
+  min-width: 1595px;
+}
+
+.logo-1 {
+  letter-spacing: 0;
+  line-height: 69px;
+  min-height: 94px;
+  min-width: 266px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 66px;
+  margin-left: 481px;
+  margin-top: 1.5px;
+  min-width: 848px;
+  position: relative;
+}
+
+.place-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 5px;
+  min-height: 46px;
+  min-width: 102px;
+  white-space: nowrap;
+}
+
+.courses-2 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 134px;
+  white-space: nowrap;
+}
+
+.community-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 197px;
+  white-space: nowrap;
+}
+
+.pricing-1 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 117px;
+  white-space: nowrap;
+}
+
+.flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 11.0px;
+  margin-top: 83px;
+  min-width: 1553px;
+  position: relative;
+}
+
+.listing-block-11 {
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #00000029;
+  height: 560px;
+  margin-left: 64px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 471px;
+}
+
+.listing-block-11:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-5 {
+  border-radius: 15px;
+  height: 311px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 405px;
+}
+
+.course-title-5 {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 324px;
+  white-space: nowrap;
+}
+
+.like-button-4 {
+  height: 30px;
+  left: 390px;
+  object-fit: cover;
+  position: absolute;
+  top: 499px;
+  width: 33px;
+}
+
+.lecture-5 {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 480px;
+  white-space: nowrap;
+}
+
+.students-2 {
+  left: 53px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.time-16 {
+  left: 321px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.rating-4 {
+  left: 281px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 502px;
+  white-space: nowrap;
+}
+
+.listing-block-12 {
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #00000029;
+  height: 560px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 471px;
+}
+
+.listing-block-12:hover {
+  transform: scale(1.1);
+}
+
+.overlap-group3-1 {
+  height: 345px;
+  left: 33px;
+  position: absolute;
+  top: 11px;
+  width: 405px;
+}
+
+.thumbnail-6 {
+  border-radius: 15px;
+  height: 311px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 405px;
+}
+
+.course-title-6 {
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+}
+
+.lecture-6 {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 478px;
+  white-space: nowrap;
+}
+
+.flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 560px;
+  margin-right: 11.0px;
+  margin-top: 96px;
+  min-width: 1553px;
+  position: relative;
+}
+

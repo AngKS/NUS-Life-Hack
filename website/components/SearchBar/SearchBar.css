@@ -1,0 +1,558 @@
+.search-bar {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 17px;
+  min-width: 1595px;
+}
+
+.overlap-group1-4 {
+  height: 80px;
+  position: relative;
+  width: 1433px;
+}
+
+.search-box {
+  height: 80px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 687px;
+}
+
+.search-course {
+  background-color: transparent;
+  border: 0;
+  height: 37px;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: 29px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 23px;
+  white-space: nowrap;
+  width: 186px;
+}
+
+.search-course::placeholder {
+  color: #14395b99;
+}
+
+.search-button {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  justify-content: flex-end;
+  left: 19px;
+  min-width: 26px;
+  position: absolute;
+  top: 27px;
+}
+
+.overlap-group2-2 {
+  height: 27px;
+  margin-top: 0;
+  position: relative;
+  width: 26px;
+}
+
+.path-2920 {
+  height: 9px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 9px;
+}
+
+.path-2921 {
+  height: 23px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.level {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 684px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group3-2 {
+  height: 51px;
+  position: relative;
+  width: 53px;
+}
+
+.level-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.subject {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 871px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group6-1 {
+  height: 51px;
+  position: relative;
+  width: 75px;
+}
+
+.subject-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.duration {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 1058px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group7-1 {
+  height: 51px;
+  position: relative;
+  width: 87px;
+}
+
+.duration-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.upload-time {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 1244px;
+  min-width: 189px;
+  padding: 12.5px 17px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group8 {
+  height: 51px;
+  position: relative;
+  width: 154px;
+}
+
+.uploading-time {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-3 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.more-filter {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 80px;
+  min-width: 162px;
+  padding: 21.5px 12px;
+  position: relative;
+}
+
+.more-filter-1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 29px;
+  min-width: 109px;
+  white-space: nowrap;
+}
+
+.level-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-4 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.subject-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-5 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.duration-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-6 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.uploading-time-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-7 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.search-bar-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 17px;
+  min-width: 1595px;
+}
+
+.overlap-group-6 {
+  height: 80px;
+  position: relative;
+  width: 1433px;
+}
+
+.search-box-1 {
+  height: 80px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 687px;
+}
+
+.search-course-1 {
+  background-color: transparent;
+  border: 0;
+  height: 37px;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: 29px;
+  padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 23px;
+  white-space: nowrap;
+  width: 186px;
+}
+
+.search-course-1::placeholder {
+  color: #14395b99;
+}
+
+.search-button-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  justify-content: flex-end;
+  left: 19px;
+  min-width: 26px;
+  position: absolute;
+  top: 27px;
+}
+
+.overlap-group1-5 {
+  height: 27px;
+  margin-top: 0;
+  position: relative;
+  width: 26px;
+}
+
+.path-2920-1 {
+  height: 9px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 9px;
+}
+
+.path-2921-1 {
+  height: 23px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.level-3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 684px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group2-3 {
+  height: 51px;
+  position: relative;
+  width: 53px;
+}
+
+.level-4 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-8 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.subject-3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 871px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group5 {
+  height: 51px;
+  position: relative;
+  width: 75px;
+}
+
+.subject-4 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-9 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.duration-3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  left: 1058px;
+  min-width: 189px;
+  padding: 12.5px 18px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group6-2 {
+  height: 51px;
+  position: relative;
+  width: 87px;
+}
+
+.duration-4 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-10 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.upload-time-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 1244px;
+  min-width: 189px;
+  padding: 12.5px 17px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group7-2 {
+  height: 51px;
+  position: relative;
+  width: 154px;
+}
+
+.uploading-time-2 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.any-11 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 26px;
+  white-space: nowrap;
+}
+
+.more-filter-2 {
+  align-items: center;
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 80px;
+  min-width: 162px;
+  padding: 21.5px 12px;
+  position: relative;
+}
+
+.more-filter-3 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 29px;
+  min-width: 109px;
+  white-space: nowrap;
+}
+

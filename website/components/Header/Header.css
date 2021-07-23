@@ -1,0 +1,77 @@
+.header-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 203px;
+  position: absolute;
+  top: 0;
+  width: 1595px;
+}
+
+.flex-row-6 {
+  align-items: flex-start;
+  display: flex;
+  height: 94px;
+  margin-top: 11px;
+  min-width: 1595px;
+}
+
+.logo-2 {
+  letter-spacing: 0;
+  line-height: 69px;
+  min-height: 94px;
+  min-width: 266px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button-3 {
+  align-items: flex-end;
+  display: flex;
+  height: 66px;
+  margin-left: 481px;
+  margin-top: 1.5px;
+  min-width: 848px;
+  position: relative;
+}
+
+.place-2 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 5px;
+  min-height: 46px;
+  min-width: 102px;
+  white-space: nowrap;
+}
+
+.courses-3 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 134px;
+  white-space: nowrap;
+}
+
+.community-2 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 197px;
+  white-space: nowrap;
+}
+
+.pricing-2 {
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 4px;
+  margin-left: 37px;
+  min-height: 46px;
+  min-width: 117px;
+  white-space: nowrap;
+}
+

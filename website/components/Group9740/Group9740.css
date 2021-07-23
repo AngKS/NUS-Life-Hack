@@ -1,0 +1,51 @@
+.facebook {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  min-width: 44px;
+  padding: 0 17px;
+}
+
+.logo-fb {
+  height: 20px;
+  object-fit: cover;
+  width: 9px;
+}
+
+.facebook-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  min-width: 44px;
+  padding: 0 17px;
+}
+
+.logo-fb-1 {
+  height: 20px;
+  object-fit: cover;
+  width: 9px;
+}
+
+.facebook-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  min-width: 44px;
+  padding: 0 17px;
+}
+
+.logo-fb-2 {
+  height: 20px;
+  object-fit: cover;
+  width: 9px;
+}
+
