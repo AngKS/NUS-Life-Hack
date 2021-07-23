@@ -10,7 +10,9 @@ let config = require("../config")
 
 // API models
 let user = require("../model/user")
+let course = require("../model/course")
 let verifyToken = require("../auth/verifyToken")
+const { countReset } = require("console")
 
 // Initialize an instance of the Express Server
 let app = express()
@@ -93,6 +95,24 @@ app.get('/user/:username', verifyToken, (req, res)=> {
             return res.status(200).type("application/json").json(result)
         }
     })
+})
+
+// Get all courses 
+app.get("/courses", (req, res) => {
+    course.getAllCourse((err, result) => {
+        if (err){
+            console.log(err)
+            return res.status(500).type("application/json").json({"Message" : "Internal Server Error"})
+        }
+        else{
+            return res.status(200).type("application/json").json(result)
+        }
+    })
+})
+
+// Add new Course
+app.post("/api/course", (req, res) => {
+    let 
 })
 
 

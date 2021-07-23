@@ -1,9 +1,10 @@
 
+const { isNull } = require("util")
 let db = require("./databaseConfig")
 
 let Course = {
 
-    getAllCourse : () => {
+    getAllCourse : (callback) => {
         let dbConnect = db.getConnection()
         dbConnect.connect((err) => {
             if (err){
@@ -20,7 +21,7 @@ let Course = {
                     }
                     else{
                         console.log('Query Success')
-                        return callback(nul, result)
+                        return callback(null, result)
                     }
                 })
             }
@@ -50,3 +51,5 @@ let Course = {
         })
     }
 }
+
+module.exports = Course
