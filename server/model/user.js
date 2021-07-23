@@ -44,6 +44,7 @@ let User = {
 
     },
 
+    // user Login
     loginUser : (email, password, callback) => {
         let conn = db.getConnection()
         conn.connect((err) => {
@@ -96,6 +97,31 @@ let User = {
             }
         })
 
+    },
+
+    // Get user information using username
+    getUser : (username) => {
+        let dbConnect = db.getConnection()
+        dbConnect.connect((err) => {
+            if (err){
+                console.log('Connection Error')
+                return callback(err, null)
+            }
+            else{
+                let QUERY = 'SELECT * FROM users WHERE username=?'
+                dbConnect.query(QUERY, [username], (err, result) => {
+                    dbConnect.end()
+                    if (err){
+                        console.log('Connection Error')
+                        return callback(err, null)
+                    }
+                    else{
+                        console.log('Query Success')
+                        return callback(null, result)
+                    }
+                })
+            }
+        })
     }
 
 }

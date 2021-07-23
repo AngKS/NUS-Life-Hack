@@ -10,6 +10,7 @@ let config = require("../config")
 
 // API models
 let user = require("../model/user")
+let verifyToken = require("../auth/verifyToken")
 
 // Initialize an instance of the Express Server
 let app = express()
@@ -74,6 +75,22 @@ app.post('/api/login', (req, res) => {
             console.log(loginResult)
 
             res.status(200).type('application/json').json(loginResult)
+        }
+    })
+})
+
+// Get user by username
+app.get('/user/:username', verifyToken, (req, res)=> {
+    let username = req.params.username
+    user.getUser(username, (err, result) => {
+        if (err){
+            console.log('err')
+            return res.status(500).type("application/json").json({"Message" : "Internal Server Error"})
+
+        }
+        else{
+            console.log(result)
+            return res.status(200).type("application/json").json(result)
         }
     })
 })
