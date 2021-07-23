@@ -43,7 +43,8 @@ app.post('/api/signup', (req, res) => {
     let email = req.body.email
     let type = req.body.type
     let password = req.body.password
-    user.addUser(username, email, type, password, (err, result) => {
+    let profPic = req.body.profileURL
+    user.addUser(username, email, type, password, profileURL, (err, result) => {
         if (err) {
             if (err.errno == 1062) {
                 console.log('Conflict Error')

@@ -8,7 +8,7 @@ const saltRounds = 5
 let User = {
 
     // Creating a new User
-    addUser : (username, email, type, password, callback) => {
+    addUser : (username, email, type, password, profPic, callback) => {
         let conn = db.getConnection()
         conn.connect((err) => {
             if (err){
@@ -25,8 +25,8 @@ let User = {
                         return (errHashing, null)
                     }
                     else{
-                        let SQL = 'INSERT INTO users(username, email, type, password) values(?, ?, ?, ?)'
-                        conn.query(SQL, [username, email, type, hashPassword], (err, result) => {
+                        let SQL = 'INSERT INTO users(username, email, type, password, profPic) values(?, ?, ?, ?, ?)'
+                        conn.query(SQL, [username, email, type, hashPassword, profPic], (err, result) => {
                             if (err){
                                 console.log('Error Inserting Record')
                                 err.statusCode = 409
