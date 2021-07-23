@@ -40,8 +40,6 @@ app.post('/api/signup', (req, res) => {
     let email = req.body.email
     let type = req.body.type
     let password = req.body.password
-    console.log(username, password)
-    
     user.addUser(username, email, type, password, (err, result) => {
         if (err) {
             if (err.errno == 1062) {
@@ -58,6 +56,28 @@ app.post('/api/signup', (req, res) => {
         }
     })
 })
+
+// User login endpoint
+app.post('/api/login', (req, res) => {
+    let email = req.body.email
+    let password = req.body.password
+
+    user.loginUser(email, password, (err, token, result) => {
+        if (err) {
+            console.log(err.message)
+            res.status(500).type("application/json").json({ "Message": err.message, "status": "User not found" })
+
+        }
+        else {
+            delete result[0]['password']
+            let loginResult = { token: token, UserData: JSON.stringify(result), success: true, status: 'You are successfully logged in!' }
+            console.log(loginResult)
+
+            res.status(200).type('application/json').json(loginResult)
+        }
+    })
+})
+
 
 app.use((req, res) => {
     res.status(404).send("<h1>🐶Doggo Can't find the API you want🐶</h1>")

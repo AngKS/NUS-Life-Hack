@@ -42,6 +42,60 @@ let User = {
             }
         })
 
+    },
+
+    loginUser : (email, password, callback) => {
+        let conn = db.getConnection()
+        conn.connect((err) => {
+            if (err){
+                console.log(err)
+                return callback(err, null, null)
+            }
+            else{
+                console.log("Connected!")
+                let SQL = 'SELECT * FROM users WHERE email=?'
+                conn.query(SQL, [email, password], (err, result) => {
+                    conn.end()
+                    if (err){
+                        console.log(err)
+                        return callback(err, null)
+                    }
+                    else{
+                        let token = ""
+                        if (result.length == 1){
+                            bcrypt.compare(password, result[0].password, (err, passwordMatch) => {
+                                if (err){
+                                    let errObj = new Error("Encryption error!")
+                                    errObj.statusCode = 500
+                                    return callback(errObj, null, null)
+
+                                }
+                                else{
+                                    if (passwordMatch){
+                                        let payload = { id: result[0].userid, role: result[0].type}
+                                        token = jwt.sign(payload, config, {
+                                            expiresIn: 86400
+                                        })
+                                        return callback(null, token, result)
+                                    }
+                                    else{
+                                        let errObj = new Error("User Authentication failed")
+                                        errObj.statusCode = 500
+                                        return callback(errObj, null, null)
+                                    }
+                                }
+                            })
+                        }
+                        else{
+                            let errObj = new Error("user not Found")
+                            errObj.statusCode = 500
+                            return callback(errObj, null, null)
+                        }
+                    }
+                })
+            }
+        })
+
     }
 
 }
