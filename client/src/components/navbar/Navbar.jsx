@@ -10,6 +10,7 @@ function Navbar() {
     const [click, setClick] = useState(false)
     const [button, setButton] = useState(true)
     const [user, setUser] = useState()
+    const [loggedIn, setLoggedIn] = useState()
 
 
     const handleClick = () => setClick(!click)
@@ -21,10 +22,17 @@ function Navbar() {
         else {
             setButton(true)
         }
+
     }
 
+    let logOut = () => {
+        localStorage.clear()
+        window.location.reload(false)
+    }
     useEffect(() => {
         showBtn()
+        let loggedUser = JSON.parse(localStorage.getItem("user"))
+        setLoggedIn(loggedUser)
 
     }, [])
 
@@ -64,7 +72,7 @@ function Navbar() {
                             <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
                                 {/* Profile */}
                                 {/* <i className="fas fa-user-circle fa-2x" /> */}
-                                <button className="btn btn-info">Login</button>
+                                {(loggedIn) ? <button className="btn btn-danger" onClick={logOut}>LogOut</button> :<button className="btn btn-info">Login</button>}
 
                             </Link>
                         </li>
