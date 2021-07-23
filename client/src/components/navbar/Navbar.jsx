@@ -41,27 +41,27 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/getStarted' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/getStarted' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/courses' className='nav-links' onClick={closeMobileMenu}>
                                 Courses
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/getStarted' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/community' className='nav-links' onClick={closeMobileMenu}>
                                 Community
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/getStarted' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/pricing' className='nav-links' onClick={closeMobileMenu}>
                                 Pricing
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/login' className='nav-links' onClick={closeMobileMenu}>
                                 {/* Profile */}
                                 {/* <i className="fas fa-user-circle fa-2x" /> */}
                                 <button className="btn btn-info">Login</button>

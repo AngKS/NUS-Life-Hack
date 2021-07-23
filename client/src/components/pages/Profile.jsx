@@ -3,9 +3,9 @@ import Navbar from "../navbar/Navbar"
 // import Article from '../articles/Article'
 import Messages from '../messages/Messages'
 
-import profilePic from "../Images/profile.png"
-import Badge from "../Images/badge.png"
-import Edit from "../Images/editIcon.png"
+// import profilePic from "../Images/profile.png"
+// import Badge from "../Images/badge.png"
+// import Edit from "../Images/editIcon.png"
 import "./Profile.css"
 
 
