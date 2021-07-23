@@ -1,5 +1,6 @@
 import {React, useEffect, useState} from 'react'
 import Axios from 'axios'
+import ArticleCard from './article/ArticleCard'
 
 
 function Articles() {
@@ -19,6 +20,10 @@ function Articles() {
     return (
         <div>
             <section className="container">
+                {
+                    (articles_) ? articles_.map(article =>  <ArticleCard article={article}/>) :
+                        <div className="text-center"><h1>Loading...</h1><div className="spinner-border"></div></div>
+                }
 
             </section>
 

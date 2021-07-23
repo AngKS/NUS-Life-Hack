@@ -34,7 +34,7 @@ function Navbar() {
             <nav className="navbar sticky-top">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo text-decoration-none" onClick={closeMobileMenu}>
-                        <h2 className="">Geekies</h2>
+                        <h2 className="">Learned</h2>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
