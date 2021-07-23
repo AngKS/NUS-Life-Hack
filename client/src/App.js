@@ -2,9 +2,9 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import Home from './components/pages/Home'
-import Profile from './components/pages/Profile'
-import GetStarted from './components/pages/GetStarted';
-import Course from './components/pages/Course';
+// import Profile from './components/pages/Profile'
+// import GetStarted from './components/pages/GetStarted';
+// import Course from './components/pages/Course';
 
 
 function App() {
