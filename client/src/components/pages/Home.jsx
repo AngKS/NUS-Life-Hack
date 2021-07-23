@@ -24,8 +24,8 @@ function Home() {
             
           </div>
           <div className="col-md-7">
-            {/* <h1>Images</h1> */}
-            <Banner />
+            <h1>Images</h1>
+            {/* <Banner /> */}
           </div>
         </div>
         <hr />

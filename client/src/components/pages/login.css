@@ -1,0 +1,22 @@
+
+.page-container {
+    height: 100vh;
+    position: relative;
+
+}
+
+
+
+.custom-card{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+
+.custom-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%
+}

@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/pages/Home'
 import Courses from './components/courses/Courses';
 import Community from './components/pages/Community';
+import Login from './components/pages/Login';
 // import Profile from './components/pages/Profile'
 // import GetStarted from './components/pages/GetStarted';
 // import Course from './components/pages/Course';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/courses" exact component={Courses} />
           <Route path="/community" exact component={Community} />
+          <Route path="/login" exact component={Login} />
           {/* <Route path="/pricing" exact component={Pricing} /> */}
         </Switch>
       </Router>
