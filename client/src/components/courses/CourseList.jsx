@@ -24,7 +24,7 @@ function CourseList() {
                         {
                             courses.map(course => {
                                 return (
-                                    <div className="row d-flex">
+                                    <div className="row d-block">
                                         <CourseCard course={course} />
                                     </div>
                                 )

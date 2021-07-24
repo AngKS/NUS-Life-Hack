@@ -6,6 +6,7 @@ import Courses from './components/pages/Courses';
 import Community from './components/pages/Community';
 import Login from './components/pages/Login';
 import Pricing from './components/pages/Pricing';
+import Footer from './components/footer/Footer';
 // import Profile from './components/pages/Profile'
 // import GetStarted from './components/pages/GetStarted';
 // import Course from './components/pages/Course';
@@ -27,6 +28,7 @@ function App() {
           {/* <Route path="/pricing" exact component={Pricing} /> */}
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
