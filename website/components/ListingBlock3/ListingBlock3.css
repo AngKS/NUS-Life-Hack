@@ -1,0 +1,101 @@
+.listing-block-14 {
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #00000029;
+  height: 560px;
+  left: 193px;
+  pointer-events: auto;
+  position: absolute;
+  top: 842px;
+  transition: all 0.2s ease;
+  width: 471px;
+}
+
+.listing-block-14:hover {
+  transform: scale(1.1);
+}
+
+.overlap-group1-4 {
+  height: 345px;
+  left: 33px;
+  position: absolute;
+  top: 11px;
+  width: 405px;
+}
+
+.thumbnail-6 {
+  border-radius: 15px;
+  height: 311px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 405px;
+}
+
+.course-title-6 {
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 310px;
+  white-space: nowrap;
+}
+
+.like-button-6 {
+  height: 30px;
+  left: 390px;
+  object-fit: cover;
+  position: absolute;
+  top: 499px;
+  width: 33px;
+}
+
+.lecture-6 {
+  left: 48px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 478px;
+  white-space: nowrap;
+}
+
+.students-4 {
+  left: 53px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.time-17 {
+  left: 321px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 416px;
+  white-space: nowrap;
+}
+
+.rating-6 {
+  left: 281px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 502px;
+  white-space: nowrap;
+}
+
+.listing-block-14.listing-block-15 {
+  left: unset;
+  position: relative;
+  top: unset;
+}
+
+.listing-block-14.listing-block-16 {
+  left: unset;
+  position: relative;
+  top: unset;
+}
+

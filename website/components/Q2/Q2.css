@@ -1,0 +1,65 @@
+.community-item-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 0px 16px #00000029;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.0px;
+  margin-top: 49px;
+  min-height: 231px;
+  padding: 36px 74px;
+  width: 1389px;
+}
+
+.question-3 {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 19px;
+  min-height: 39px;
+  white-space: nowrap;
+}
+
+.overlap-group-1 {
+  height: 79px;
+  margin-top: 21px;
+  position: relative;
+  width: 1220px;
+}
+
+.breif-description-3 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.user-info-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1077px;
+  min-height: 43px;
+  position: absolute;
+  top: 36px;
+  width: 143px;
+}
+
+.asked-at-2-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: 2px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+
+.x-shi {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: 3px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+

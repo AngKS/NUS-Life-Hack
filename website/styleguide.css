@@ -9,13 +9,13 @@
   --mine-shaft: #313030;
   --white: #ffffff;
  
-  --font-size-l: 23px;
+  --font-size-l: 27px;
   --font-size-m: 22px;
-  --font-size-s: 18px;
-  --font-size-xl: 27px;
-  --font-size-xs: 14px;
+  --font-size-s: 20px;
+  --font-size-xl: 30px;
+  --font-size-xs: 18px;
   --font-size-xxl: 36px;
-  --font-size-xxs: 10px;
+  --font-size-xxs: 14px;
  
   --font-family-notosans_cjk_kr-regular: "NotoSans CJK KR-Regular", Helvetica;
   --font-family-playfair_display: "Playfair Display", Helvetica;
@@ -24,25 +24,10 @@
   --font-family-rigsans-medium: "rig-sans", Helvetica;
   --font-family-rigsans-regular: "rig-sans", Helvetica;
   --font-family-rigsans-semibold: "rig-sans", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
 }
 .rigsans-regular-normal-cello-22px {
   color: var(--cello);
-  font-family: var(--font-family-rigsans-regular);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.rigsans-semi-bold-cello-27px {
-  color: var(--cello);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.rigsans-regular-normal-dodger-blue-22px {
-  color: var(--dodger-blue);
   font-family: var(--font-family-rigsans-regular);
   font-size: var(--font-size-m);
   font-style: normal;
@@ -57,10 +42,18 @@
   font-weight: 600;
 }
 
-.rigsans-regular-normal-chicago-18px {
-  color: var(--chicago);
+.rigsans-semi-bold-cello-27px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-regular-normal-dodger-blue-22px {
+  color: var(--dodger-blue);
   font-family: var(--font-family-rigsans-regular);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -68,7 +61,7 @@
 .rigsans-bold-white-18px {
   color: var(--white);
   font-family: var(--font-family-rigsans-bold);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
 }
@@ -76,7 +69,7 @@
 .rigsans-regular-normal-white-14px {
   color: var(--white);
   font-family: var(--font-family-rigsans-regular);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 400;
 }
@@ -89,36 +82,36 @@
   font-weight: 600;
 }
 
+.rigsans-semi-bold-white-30px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-medium-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .notosanscjkkr-regular-normal-white-14px {
   color: var(--white);
   font-family: var(--font-family-notosans_cjk_kr-regular);
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-xxs);
   font-style: normal;
   font-weight: 400;
 }
 
-.rigsans-semi-bold-white-20px {
-  color: var(--white);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: 20px;
+.rigsans-regular-normal-chicago-18px {
+  color: var(--chicago);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-xs);
   font-style: normal;
-  font-weight: 600;
-}
-
-.rigsans-semi-bold-white-10px {
-  color: var(--white);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: var(--font-size-xxs);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.rigsans-semi-bold-white-22px {
-  color: var(--white);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .playfairdisplay-bold-dodger-blue-69px {
@@ -129,24 +122,16 @@
   font-weight: 700;
 }
 
-.rigsans-semi-bold-white-30px {
-  color: var(--white);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: 30px;
+.rigsans-medium-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: var(--font-size-xl);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.rigsans-semi-bold-concord-10px {
-  color: var(--concord);
-  font-family: var(--font-family-rigsans-semibold);
-  font-size: var(--font-size-xxs);
-  font-style: normal;
-  font-weight: 600;
-}
-
-.rigsans-medium-dodger-blue-18px {
-  color: var(--dodger-blue);
+.rigsans-medium-black-20px {
+  color: var(--black);
   font-family: var(--font-family-rigsans-medium);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -164,9 +149,65 @@
 .rigsans-regular-normal-white-18px {
   color: var(--white);
   font-family: var(--font-family-rigsans-regular);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 400;
+}
+
+.rigsans-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-semi-bold-concord-10px {
+  color: var(--concord);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-medium-dodger-blue-18px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rigsans-semi-bold-cello-21px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.rigsans-bold-cello-58px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-bold);
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .rigsans-regular-normal-cello-29px {
@@ -175,6 +216,22 @@
   font-size: 29px;
   font-style: normal;
   font-weight: 400;
+}
+
+.rigsans-regular-normal-cello-30px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rigsans-semi-bold-dodger-blue-49px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-rigsans-semibold);
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .rigsans-medium-black-49px {
@@ -188,17 +245,25 @@
 .rigsans-medium-mine-shaft-23px {
   color: var(--mine-shaft);
   font-family: var(--font-family-rigsans-medium);
-  font-size: var(--font-size-l);
+  font-size: 23px;
   font-style: normal;
   font-weight: 500;
 }
 
-.rigsans-bold-cello-58px {
+.rigsans-bold-cello-56px {
   color: var(--cello);
   font-family: var(--font-family-rigsans-bold);
-  font-size: 58px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
+}
+
+.rigsans-medium-cello-20px {
+  color: var(--cello);
+  font-family: var(--font-family-rigsans-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
 }
 
 .border-1px-dove-gray {

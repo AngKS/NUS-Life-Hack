@@ -1,0 +1,96 @@
+.footer-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 404px;
+  left: 0;
+  min-width: 1938px;
+  position: absolute;
+  top: 1610px;
+}
+
+.overlap-group2-4 {
+  height: 404px;
+  position: relative;
+  width: 1938px;
+}
+
+.mainbackground-3 {
+  height: 331px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.slogan-3 {
+  align-items: flex-end;
+  display: flex;
+  height: 200px;
+  left: 282px;
+  min-width: 328px;
+  position: absolute;
+  top: 90px;
+}
+
+.overlap-group1-5 {
+  height: 192px;
+  position: relative;
+  width: 328px;
+}
+
+.social-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 44px;
+  left: 54px;
+  min-width: 209px;
+  position: absolute;
+  top: 148px;
+}
+
+.learned-3 {
+  left: 72px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.divider-4 {
+  height: 4px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  width: 328px;
+}
+
+.paragraph-3 {
+  height: 94px;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 64px;
+  width: 316px;
+}
+
+.footer-3.footer-4 {
+  height: unset;
+  left: unset;
+  margin-top: 59px;
+  position: unset;
+  top: unset;
+}
+
+.footer-3.footer-5 {
+  height: unset;
+  left: unset;
+  margin-top: 59px;
+  position: unset;
+  top: unset;
+}
+

@@ -1,0 +1,33 @@
+.user-info-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 19.0px;
+  margin-top: 11px;
+  min-height: 43px;
+  width: 145px;
+}
+
+.asked-at-2-2 {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: 2px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+
+.by-chang-yong-fu {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-top: 3px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+
+.user-info-3.user-info-4 {
+  margin-left: 35px;
+  margin-right: unset;
+  margin-top: unset;
+}
+

@@ -33770,12 +33770,12 @@ function Login(props) {
 
 var _default = Login;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./Login.css":"components/Login/Login.css"}],"components/ListingBlock/ListingBlock.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Login.css":"components/Login/Login.css"}],"components/Group9831/Group9831.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/ListingBlock/index.jsx":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Group9831/index.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33785,43 +33785,330 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-require("./ListingBlock.css");
+require("./Group9831.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function ListingBlock(props) {
-  var thumbnail = props.thumbnail,
-      courseTitle = props.courseTitle,
-      likeButton = props.likeButton,
-      lecture = props.lecture,
-      students = props.students,
-      time = props.time,
-      rating = props.rating,
+function Group9831(props) {
+  var line3 = props.line3,
+      line4 = props.line4,
       className = props.className;
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "listing-block-9 smart-layers-pointers ".concat(className ? className : "" || "")
+    className: "group-9831-4 ".concat(className ? className : "" || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group-7"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "thumbnail-2",
-    src: thumbnail ? thumbnail : ""
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "course-title-2 rigsans-semi-bold-cello-27px"
-  }, courseTitle ? courseTitle : ""), /*#__PURE__*/_react.default.createElement("img", {
-    className: "like-button-1",
-    src: likeButton ? likeButton : ""
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "lecture-2 rigsans-regular-normal-cello-22px"
-  }, lecture ? lecture : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "students-1 rigsans-regular-normal-cello-22px"
-  }, students ? students : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "time-1 rigsans-regular-normal-cello-22px"
-  }, time ? time : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "rating-1 rigsans-regular-normal-dodger-blue-22px"
-  }, rating ? rating : ""));
+    className: "line-3-1",
+    src: line3 ? line3 : ""
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-4-1",
+    src: line4 ? line4 : ""
+  })));
 }
 
-var _default = ListingBlock;
+var _default = Group9831;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./ListingBlock.css":"components/ListingBlock/ListingBlock.css"}],"components/Group9740/Group9740.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Group9831.css":"components/Group9831/Group9831.css"}],"components/Group9835/Group9835.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Group9835/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group9831"));
+
+require("./Group9835.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group9835(props) {
+  var className = props.className,
+      group9831Props = props.group9831Props,
+      group98312Props = props.group98312Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-4-1 ".concat(className ? src : "" || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-4"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
+    line3: group9831Props.line3 ? group9831Props.line3 : "",
+    line4: group9831Props.line4 ? group9831Props.line4 : ""
+  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    line3: group98312Props.line3 ? group98312Props.line3 : "",
+    line4: group98312Props.line4 ? group9831Props.line4 : "",
+    className: group98312Props.className ? srgroup98312Props.classNamec : ""
+  })));
+}
+
+var _default = Group9835;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group9831":"components/Group9831/index.jsx","./Group9835.css":"components/Group9835/Group9835.css"}],"components/SearchBar/SearchBar.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/SearchBar/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group9835"));
+
+require("./SearchBar.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function SearchBar(props) {
+  var searchBox = props.searchBox,
+      inputType = props.inputType,
+      inputPlaceholder = props.inputPlaceholder,
+      path2920 = props.path2920,
+      path2921 = props.path2921,
+      level = props.level,
+      any = props.any,
+      subject = props.subject,
+      any2 = props.any2,
+      duration = props.duration,
+      any3 = props.any3,
+      uploadingTime = props.uploadingTime,
+      any4 = props.any4,
+      moreFilter = props.moreFilter,
+      moreFilter2 = props.moreFilter2,
+      group9835Props = props.group9835Props,
+      group98352Props = props.group98352Props,
+      group98353Props = props.group98353Props,
+      group98354Props = props.group98354Props,
+      group98355Props = props.group98355Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "search-bar"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group1-4"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "search-box",
+    src: searchBox ? searchBox : ""
+  }), /*#__PURE__*/_react.default.createElement("input", {
+    className: "search-course rigsans-regular-normal-cello-29px",
+    name: "search-course1",
+    placeholder: inputPlaceholder ? inputPlaceholder : "",
+    type: inputType ? inputType : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "search-button"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-2"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "path-2920",
+    src: path2920 ? path2920 : ""
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "path-2921",
+    src: path2921 ? path2921 : ""
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "level border-1px-dove-gray"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "level-1 rigsans-regular-normal-cello-22px"
+  }, level ? level : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "any rigsans-regular-normal-chicago-18px"
+  }, any ? any : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    group9831Props: group9835Props.group9831Props ? group9835Props.group9831Props : "",
+    group98312Props: group9835Props.group98312Props ? group9835Props.group98312Props : ""
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "subject border-1px-dove-gray"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group6-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "subject-1 rigsans-regular-normal-cello-22px"
+  }, subject ? subject : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "any-1 rigsans-regular-normal-chicago-18px"
+  }, any2 ? any2 : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    className: group98352Props.className ? group98352Props.className : "",
+    group9831Props: group98352Props.group9831Props ? group98352Props.group9831Props : "",
+    group98312Props: group98352Props.group98312Props ? group98352Props.group98312Props : ""
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "duration border-1px-dove-gray"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group7-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "duration-1 rigsans-regular-normal-cello-22px"
+  }, duration ? duration : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "any-2 rigsans-regular-normal-chicago-18px"
+  }, any3 ? any3 : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    className: group98353Props.className ? group98353Props.className : "",
+    group9831Props: group98353Props.group9831Props ? group98353Props.group9831Props : "",
+    group98312Props: group98353Props.group98312Props ? group98353Props.group98312Props : ""
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "upload-time border-1px-dove-gray"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group8"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "uploading-time rigsans-regular-normal-cello-22px"
+  }, uploadingTime ? uploadingTime : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "any-3 rigsans-regular-normal-chicago-18px"
+  }, any4 ? any4 : ""), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    className: group98354Props.className ? group98354Props.className : "",
+    group9831Props: group98354Props.group9831Props ? group98354Props.group9831Props : "",
+    group98312Props: group98354Props.group98312Props ? group98354Props.group98312Props : ""
+  })))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "more-filter",
+    style: {
+      backgroundImage: "url(".concat(moreFilter ? moreFilter : "", ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "more-filter-1 rigsans-regular-normal-cello-22px"
+  }, moreFilter2 ? moreFilter2 : ""), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    className: group98355Props.className ? group98355Props.className : "",
+    group9831Props: group98355Props.group9831Props ? group98355Props.group9831Props : "",
+    group98312Props: group98355Props.group98312Props ? group98355Props.group98312Props : ""
+  })));
+}
+
+var _default = SearchBar;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group9835":"components/Group9835/index.jsx","./SearchBar.css":"components/SearchBar/SearchBar.css"}],"components/Header/Header.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Header/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Login = _interopRequireDefault(require("../Login"));
+
+var _SearchBar = _interopRequireDefault(require("../SearchBar"));
+
+require("./Header.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Header(props) {
+  var logo = props.logo,
+      place = props.place,
+      courses = props.courses,
+      community = props.community,
+      pricing = props.pricing,
+      loginProps = props.loginProps,
+      group98354Props = props.group98354Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "header-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-6"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "logo-2 playfairdisplay-bold-dodger-blue-69px"
+  }, logo ? logo : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-2 rigsans-semi-bold-cello-36px"
+  }, place ? place : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "courses-3 rigsans-semi-bold-dodger-blue-36px"
+  }, courses ? courses : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "community-2 rigsans-semi-bold-cello-36px"
+  }, community ? community : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "pricing-2 rigsans-semi-bold-cello-36px"
+  }, pricing ? pricing : ""), /*#__PURE__*/_react.default.createElement(_Login.default, {
+    className: loginProps.className ? loginProps.className : ""
+  }, loginProps.children ? loginProps.children : ""))), /*#__PURE__*/_react.default.createElement(_SearchBar.default, group98354Props ? group98354Props : ""));
+}
+
+var _default = Header;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Login":"components/Login/index.jsx","../SearchBar":"components/SearchBar/index.jsx","./Header.css":"components/Header/Header.css"}],"components/Q2/Q2.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Q2/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Q2.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Q2(props) {
+  var question = props.question,
+      breifDescription = props.breifDescription,
+      askedAt27072021 = props.askedAt27072021,
+      byAngKahShin = props.byAngKahShin,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "community-item-1 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "question-3 rigsans-medium-black-30px"
+  }, question), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "breif-description-3 rigsans-medium-black-20px"
+  }, breifDescription), /*#__PURE__*/_react.default.createElement("div", {
+    className: "user-info-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "asked-at-2-1 rigsans-medium-black-15px"
+  }, askedAt27072021), /*#__PURE__*/_react.default.createElement("div", {
+    className: "x-shi rigsans-medium-black-15px"
+  }, byAngKahShin))));
+}
+
+var _default = Q2;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Q2.css":"components/Q2/Q2.css"}],"components/UserInfo/UserInfo.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/UserInfo/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./UserInfo.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function UserInfo(props) {
+  var askedAt23072021 = props.askedAt23072021,
+      byChangYongFu = props.byChangYongFu,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "user-info-3 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "asked-at-2-2 rigsans-medium-black-15px"
+  }, askedAt23072021), /*#__PURE__*/_react.default.createElement("div", {
+    className: "by-chang-yong-fu rigsans-medium-black-15px"
+  }, byChangYongFu));
+}
+
+var _default = UserInfo;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./UserInfo.css":"components/UserInfo/UserInfo.css"}],"components/Group9740/Group9740.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -34049,7 +34336,229 @@ function Footer(props) {
 
 var _default = Footer;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group9740":"components/Group9740/index.jsx","../Group9741":"components/Group9741/index.jsx","../Group9742":"components/Group9742/index.jsx","../Group9743":"components/Group9743/index.jsx","./Footer.css":"components/Footer/Footer.css"}],"components/Home/Home.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Group9740":"components/Group9740/index.jsx","../Group9741":"components/Group9741/index.jsx","../Group9742":"components/Group9742/index.jsx","../Group9743":"components/Group9743/index.jsx","./Footer.css":"components/Footer/Footer.css"}],"components/Community/Community.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Community/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactRouterDom = require("react-router-dom");
+
+var _Header = _interopRequireDefault(require("../Header"));
+
+var _Login = _interopRequireDefault(require("../Login"));
+
+var _Q = _interopRequireDefault(require("../Q2"));
+
+var _UserInfo = _interopRequireDefault(require("../UserInfo"));
+
+var _Footer = _interopRequireDefault(require("../Footer"));
+
+require("./Community.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Community(props) {
+  var logo = props.logo,
+      place = props.place,
+      courses = props.courses,
+      community = props.community,
+      pricing = props.pricing,
+      rectangle143 = props.rectangle143,
+      path2922 = props.path2922,
+      search = props.search,
+      text3 = props.text3,
+      question = props.question,
+      breifDescription = props.breifDescription,
+      askedAt29072021 = props.askedAt29072021,
+      byShiTingxiao = props.byShiTingxiao,
+      question2 = props.question2,
+      breifDescription2 = props.breifDescription2,
+      askedAt24072021 = props.askedAt24072021,
+      byCodyHan = props.byCodyHan,
+      question3 = props.question3,
+      breifDescription3 = props.breifDescription3,
+      question4 = props.question4,
+      breifDescription4 = props.breifDescription4,
+      headerProps = props.headerProps,
+      loginProps = props.loginProps,
+      q2Props = props.q2Props,
+      userInfoProps = props.userInfoProps,
+      userInfo2Props = props.userInfo2Props,
+      q22Props = props.q22Props,
+      footerProps = props.footerProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-center-horizontal"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "community screen"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group"
+  }, /*#__PURE__*/_react.default.createElement(_Header.default, {
+    logo: headerProps.logo,
+    buttonProps: headerProps.buttonProps
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "header"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home",
+    className: "align-self-flex-end"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "logo playfairdisplay-bold-dodger-blue-69px"
+  }, logo)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "button"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place rigsans-semi-bold-cello-36px"
+  }, place)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/courses"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "courses rigsans-semi-bold-cello-36px"
+  }, courses)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "community-1 rigsans-semi-bold-dodger-blue-36px"
+  }, community), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/courses-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "pricing rigsans-semi-bold-cello-36px"
+  }, pricing)), /*#__PURE__*/_react.default.createElement(_Login.default, null, loginProps.children)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "question-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-143",
+    src: rectangle143
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "path-2922",
+    src: path2922
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "search"
+  }, search), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-3"
+  }, text3))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "q1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "question rigsans-medium-black-30px"
+  }, question), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group4"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "breif-description rigsans-medium-black-20px"
+  }, breifDescription), /*#__PURE__*/_react.default.createElement("div", {
+    className: "user-info"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "asked-at-2 rigsans-medium-black-15px"
+  }, askedAt29072021), /*#__PURE__*/_react.default.createElement("div", {
+    className: "by-shi-tingxiao rigsans-medium-black-15px"
+  }, byShiTingxiao)))), /*#__PURE__*/_react.default.createElement(_Q.default, {
+    question: q2Props.question,
+    breifDescription: q2Props.breifDescription,
+    askedAt27072021: q2Props.askedAt27072021,
+    byAngKahShin: q2Props.byAngKahShin
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "q3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "question rigsans-medium-black-30px"
+  }, question2), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group6"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "breif-description rigsans-medium-black-20px"
+  }, breifDescription2), /*#__PURE__*/_react.default.createElement("div", {
+    className: "user-info-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "asked-at-2 rigsans-medium-black-15px"
+  }, askedAt24072021), /*#__PURE__*/_react.default.createElement("div", {
+    className: "by-cody-han rigsans-medium-black-15px"
+  }, byCodyHan)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "q4"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "question rigsans-medium-black-30px"
+  }, question3), /*#__PURE__*/_react.default.createElement("div", {
+    className: "breif-description-1 rigsans-medium-black-20px"
+  }, breifDescription3), /*#__PURE__*/_react.default.createElement(_UserInfo.default, {
+    askedAt23072021: userInfoProps.askedAt23072021,
+    byChangYongFu: userInfoProps.byChangYongFu
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "q5"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "question-2 rigsans-medium-black-30px"
+  }, question4), /*#__PURE__*/_react.default.createElement("div", {
+    className: "breif-description-2 rigsans-medium-black-20px"
+  }, breifDescription4)), /*#__PURE__*/_react.default.createElement(_UserInfo.default, {
+    askedAt23072021: userInfo2Props.askedAt23072021,
+    byChangYongFu: userInfo2Props.byChangYongFu,
+    className: userInfo2Props.className
+  })), /*#__PURE__*/_react.default.createElement(_Q.default, {
+    question: q22Props.question,
+    breifDescription: q22Props.breifDescription,
+    askedAt27072021: q22Props.askedAt27072021,
+    byAngKahShin: q22Props.byAngKahShin,
+    className: q22Props.className
+  }), /*#__PURE__*/_react.default.createElement(_Footer.default, footerProps)));
+}
+
+var _default = Community;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Header":"components/Header/index.jsx","../Login":"components/Login/index.jsx","../Q2":"components/Q2/index.jsx","../UserInfo":"components/UserInfo/index.jsx","../Footer":"components/Footer/index.jsx","./Community.css":"components/Community/Community.css"}],"components/ListingBlock/ListingBlock.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/ListingBlock/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./ListingBlock.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ListingBlock(props) {
+  var thumbnail = props.thumbnail,
+      courseTitle = props.courseTitle,
+      likeButton = props.likeButton,
+      lecture = props.lecture,
+      students = props.students,
+      time = props.time,
+      rating = props.rating,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "listing-block-9 smart-layers-pointers ".concat(className ? className : "" || "")
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "thumbnail-2",
+    src: thumbnail ? thumbnail : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "course-title-2 rigsans-semi-bold-cello-27px"
+  }, courseTitle ? courseTitle : ""), /*#__PURE__*/_react.default.createElement("img", {
+    className: "like-button-1",
+    src: likeButton ? likeButton : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lecture-2 rigsans-regular-normal-cello-22px"
+  }, lecture ? lecture : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "students-1 rigsans-regular-normal-cello-22px"
+  }, students ? students : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "time-1 rigsans-regular-normal-cello-22px"
+  }, time ? time : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "rating-1 rigsans-regular-normal-dodger-blue-22px"
+  }, rating ? rating : ""));
+}
+
+var _default = ListingBlock;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./ListingBlock.css":"components/ListingBlock/ListingBlock.css"}],"components/Home/Home.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -34412,267 +34921,7 @@ function Home(props) {
 
 var _default = Home;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Login":"components/Login/index.jsx","../ListingBlock":"components/ListingBlock/index.jsx","../Footer":"components/Footer/index.jsx","./Home.css":"components/Home/Home.css"}],"components/Group9831/Group9831.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Group9831/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group9831.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group9831(props) {
-  var line3 = props.line3,
-      line4 = props.line4,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-9831-4 ".concat(className ? className : "" || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group-7"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-3-1",
-    src: line3 ? line3 : ""
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-4-1",
-    src: line4 ? line4 : ""
-  })));
-}
-
-var _default = Group9831;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group9831.css":"components/Group9831/Group9831.css"}],"components/Group9835/Group9835.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Group9835/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group9831"));
-
-require("./Group9835.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group9835(props) {
-  var className = props.className,
-      group9831Props = props.group9831Props,
-      group98312Props = props.group98312Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-4-1 ".concat(className ? src : "" || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group2-4"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
-    line3: group9831Props.line3 ? group9831Props.line3 : "",
-    line4: group9831Props.line4 ? group9831Props.line4 : ""
-  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    line3: group98312Props.line3 ? group98312Props.line3 : "",
-    line4: group98312Props.line4 ? group9831Props.line4 : "",
-    className: group98312Props.className ? srgroup98312Props.classNamec : ""
-  })));
-}
-
-var _default = Group9835;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group9831":"components/Group9831/index.jsx","./Group9835.css":"components/Group9835/Group9835.css"}],"components/SearchBar/SearchBar.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/SearchBar/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group9835"));
-
-require("./SearchBar.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function SearchBar(props) {
-  var searchBox = props.searchBox,
-      inputType = props.inputType,
-      inputPlaceholder = props.inputPlaceholder,
-      path2920 = props.path2920,
-      path2921 = props.path2921,
-      level = props.level,
-      any = props.any,
-      subject = props.subject,
-      any2 = props.any2,
-      duration = props.duration,
-      any3 = props.any3,
-      uploadingTime = props.uploadingTime,
-      any4 = props.any4,
-      moreFilter = props.moreFilter,
-      moreFilter2 = props.moreFilter2,
-      group9835Props = props.group9835Props,
-      group98352Props = props.group98352Props,
-      group98353Props = props.group98353Props,
-      group98354Props = props.group98354Props,
-      group98355Props = props.group98355Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "search-bar"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-4"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "search-box",
-    src: searchBox ? searchBox : ""
-  }), /*#__PURE__*/_react.default.createElement("input", {
-    className: "search-course rigsans-regular-normal-cello-29px",
-    name: "search-course1",
-    placeholder: inputPlaceholder ? inputPlaceholder : "",
-    type: inputType ? inputType : ""
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "search-button"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group2-2"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "path-2920",
-    src: path2920 ? path2920 : ""
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "path-2921",
-    src: path2921 ? path2921 : ""
-  }))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "level border-1px-dove-gray"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group3-2"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "level-1 rigsans-regular-normal-cello-22px"
-  }, level ? level : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "any rigsans-regular-normal-chicago-18px"
-  }, any ? any : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group9831Props: group9835Props.group9831Props ? group9835Props.group9831Props : "",
-    group98312Props: group9835Props.group98312Props ? group9835Props.group98312Props : ""
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "subject border-1px-dove-gray"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group6-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "subject-1 rigsans-regular-normal-cello-22px"
-  }, subject ? subject : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "any-1 rigsans-regular-normal-chicago-18px"
-  }, any2 ? any2 : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    className: group98352Props.className ? group98352Props.className : "",
-    group9831Props: group98352Props.group9831Props ? group98352Props.group9831Props : "",
-    group98312Props: group98352Props.group98312Props ? group98352Props.group98312Props : ""
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "duration border-1px-dove-gray"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group7-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "duration-1 rigsans-regular-normal-cello-22px"
-  }, duration ? duration : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "any-2 rigsans-regular-normal-chicago-18px"
-  }, any3 ? any3 : "")), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    className: group98353Props.className ? group98353Props.className : "",
-    group9831Props: group98353Props.group9831Props ? group98353Props.group9831Props : "",
-    group98312Props: group98353Props.group98312Props ? group98353Props.group98312Props : ""
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "upload-time border-1px-dove-gray"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group8"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "uploading-time rigsans-regular-normal-cello-22px"
-  }, uploadingTime ? uploadingTime : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "any-3 rigsans-regular-normal-chicago-18px"
-  }, any4 ? any4 : ""), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    className: group98354Props.className ? group98354Props.className : "",
-    group9831Props: group98354Props.group9831Props ? group98354Props.group9831Props : "",
-    group98312Props: group98354Props.group98312Props ? group98354Props.group98312Props : ""
-  })))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "more-filter",
-    style: {
-      backgroundImage: "url(".concat(moreFilter ? moreFilter : "", ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "more-filter-1 rigsans-regular-normal-cello-22px"
-  }, moreFilter2 ? moreFilter2 : ""), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    className: group98355Props.className ? group98355Props.className : "",
-    group9831Props: group98355Props.group9831Props ? group98355Props.group9831Props : "",
-    group98312Props: group98355Props.group98312Props ? group98355Props.group98312Props : ""
-  })));
-}
-
-var _default = SearchBar;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group9835":"components/Group9835/index.jsx","./SearchBar.css":"components/SearchBar/SearchBar.css"}],"components/Header/Header.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Header/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Login = _interopRequireDefault(require("../Login"));
-
-var _SearchBar = _interopRequireDefault(require("../SearchBar"));
-
-require("./Header.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Header(props) {
-  var logo = props.logo,
-      place = props.place,
-      courses = props.courses,
-      community = props.community,
-      pricing = props.pricing,
-      loginProps = props.loginProps,
-      group98354Props = props.group98354Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "header-2"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-row-6"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "logo-2 playfairdisplay-bold-dodger-blue-69px"
-  }, logo ? logo : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-3"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "place-2 rigsans-semi-bold-cello-36px"
-  }, place ? place : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "courses-3 rigsans-semi-bold-dodger-blue-36px"
-  }, courses ? courses : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "community-2 rigsans-semi-bold-cello-36px"
-  }, community ? community : ""), /*#__PURE__*/_react.default.createElement("div", {
-    className: "pricing-2 rigsans-semi-bold-cello-36px"
-  }, pricing ? pricing : ""), /*#__PURE__*/_react.default.createElement(_Login.default, {
-    className: loginProps.className ? loginProps.className : ""
-  }, loginProps.children ? loginProps.children : ""))), /*#__PURE__*/_react.default.createElement(_SearchBar.default, group98354Props ? group98354Props : ""));
-}
-
-var _default = Header;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Login":"components/Login/index.jsx","../SearchBar":"components/SearchBar/index.jsx","./Header.css":"components/Header/Header.css"}],"components/Courses/Courses.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Login":"components/Login/index.jsx","../ListingBlock":"components/ListingBlock/index.jsx","../Footer":"components/Footer/index.jsx","./Home.css":"components/Home/Home.css"}],"components/Courses/Courses.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -34817,7 +35066,468 @@ function Courses(props) {
 
 var _default = Courses;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Header":"components/Header/index.jsx","../Login":"components/Login/index.jsx","../SearchBar":"components/SearchBar/index.jsx","../ListingBlock":"components/ListingBlock/index.jsx","../Footer":"components/Footer/index.jsx","./Courses.css":"components/Courses/Courses.css"}],"components/Home1/Home1.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Header":"components/Header/index.jsx","../Login":"components/Login/index.jsx","../SearchBar":"components/SearchBar/index.jsx","../ListingBlock":"components/ListingBlock/index.jsx","../Footer":"components/Footer/index.jsx","./Courses.css":"components/Courses/Courses.css"}],"components/Courses3/Courses3.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Courses3/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactRouterDom = require("react-router-dom");
+
+var _Login = _interopRequireDefault(require("../Login"));
+
+var _Footer = _interopRequireDefault(require("../Footer"));
+
+require("./Courses3.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Courses3(props) {
+  var logo = props.logo,
+      place = props.place,
+      courses = props.courses,
+      community = props.community,
+      pricing = props.pricing,
+      text19 = props.text19,
+      overlapGroup2 = props.overlapGroup2,
+      starter = props.starter,
+      description = props.description,
+      x399Mo = props.x399Mo,
+      iMReady = props.iMReady,
+      overlapGroup3 = props.overlapGroup3,
+      theStudyOne = props.theStudyOne,
+      description2 = props.description2,
+      x699Mo = props.x699Mo,
+      letSGo = props.letSGo,
+      overlapGroup4 = props.overlapGroup4,
+      theMonster = props.theMonster,
+      description3 = props.description3,
+      x999Mo = props.x999Mo,
+      hitMe = props.hitMe,
+      spanText = props.spanText,
+      spanText2 = props.spanText2,
+      spanText3 = props.spanText3,
+      loginProps = props.loginProps,
+      footerProps = props.footerProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-center-horizontal"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "courses-3-1 screen"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "header-6"
+  }, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Link, {
+    to: "/home",
+    className: "align-self-flex-end"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "logo-6 playfairdisplay-bold-dodger-blue-69px"
+  }, logo)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-15"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-6 rigsans-semi-bold-cello-36px"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "courses-7 rigsans-semi-bold-cello-36px"
+  }, courses), /*#__PURE__*/_react.default.createElement("div", {
+    className: "community-7 rigsans-semi-bold-cello-36px"
+  }, community), /*#__PURE__*/_react.default.createElement("div", {
+    className: "pricing-6 rigsans-semi-bold-dodger-blue-36px"
+  }, pricing), /*#__PURE__*/_react.default.createElement(_Login.default, null, loginProps.children))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-19 rigsans-bold-cello-58px"
+  }, text19), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-4"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "starter"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-8",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup2, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "starter-1 rigsans-bold-cello-56px"
+  }, starter), /*#__PURE__*/_react.default.createElement("div", {
+    className: "description rigsans-regular-normal-cello-30px"
+  }, description), /*#__PURE__*/_react.default.createElement("div", {
+    className: "x399-mo rigsans-semi-bold-dodger-blue-49px"
+  }, x399Mo), /*#__PURE__*/_react.default.createElement("div", {
+    className: "join-button"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "im-ready rigsans-semi-bold-white-30px"
+  }, iMReady)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "the"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-6",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup3, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "the-study-one"
+  }, theStudyOne), /*#__PURE__*/_react.default.createElement("div", {
+    className: "description-1 rigsans-regular-normal-cello-30px"
+  }, description2), /*#__PURE__*/_react.default.createElement("div", {
+    className: "x699-mo rigsans-semi-bold-dodger-blue-49px"
+  }, x699Mo), /*#__PURE__*/_react.default.createElement("div", {
+    className: "join-button-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lets-go rigsans-semi-bold-white-30px"
+  }, letSGo)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "the"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group4-5",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup4, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "the-monster rigsans-bold-cello-56px"
+  }, theMonster), /*#__PURE__*/_react.default.createElement("div", {
+    className: "description-2 rigsans-regular-normal-cello-30px"
+  }, description3), /*#__PURE__*/_react.default.createElement("div", {
+    className: "x999-mo rigsans-semi-bold-dodger-blue-49px"
+  }, x999Mo), /*#__PURE__*/_react.default.createElement("div", {
+    className: "join-button-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "hit-me rigsans-semi-bold-white-30px"
+  }, hitMe))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-20"
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: "rigsans-medium-cello-20px"
+  }, spanText), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span1"
+  }, spanText2), /*#__PURE__*/_react.default.createElement("span", {
+    className: "rigsans-medium-cello-20px"
+  }, spanText3)), /*#__PURE__*/_react.default.createElement(_Footer.default, footerProps)));
+}
+
+var _default = Courses3;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","../Login":"components/Login/index.jsx","../Footer":"components/Footer/index.jsx","./Courses3.css":"components/Courses3/Courses3.css"}],"components/Copyright/Copyright.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Copyright/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Copyright.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Copyright(props) {
+  var copyright_Left = props.copyright_Left,
+      copyright_Right = props.copyright_Right;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "copyright"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "copyrightleft notosanscjkkr-regular-normal-white-14px"
+  }, copyright_Left ? copyright_Left : ""), /*#__PURE__*/_react.default.createElement("p", {
+    className: "copyrightright notosanscjkkr-regular-normal-white-14px"
+  }, copyright_Right ? copyright_Right : ""));
+}
+
+var _default = Copyright;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Copyright.css":"components/Copyright/Copyright.css"}],"components/MoreAboutUsCol/MoreAboutUsCol.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/MoreAboutUsCol/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./MoreAboutUsCol.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function MoreAboutUsCol(props) {
+  var moreFromUs = props.moreFromUs,
+      text1 = props.text1;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "more-about-us-col"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "more-from-us rigsans-bold-white-18px"
+  }, moreFromUs ? moreFromUs : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-1 rigsans-regular-normal-white-14px"
+  }, text1 ? text1 : ""));
+}
+
+var _default = MoreAboutUsCol;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./MoreAboutUsCol.css":"components/MoreAboutUsCol/MoreAboutUsCol.css"}],"components/HelpCol/HelpCol.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/HelpCol/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./HelpCol.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function HelpCol(props) {
+  var help = props.help,
+      text2 = props.text2;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "help-col"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "help rigsans-bold-white-18px"
+  }, help ? help : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-2 rigsans-regular-normal-white-14px"
+  }, text2 ? text2 : ""));
+}
+
+var _default = HelpCol;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./HelpCol.css":"components/HelpCol/HelpCol.css"}],"components/AddressCol/AddressCol.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/AddressCol/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./AddressCol.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function AddressCol(props) {
+  var address = props.address,
+      address2 = props.address2;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "address-col"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "address rigsans-bold-white-18px"
+  }, address ? address : ""), /*#__PURE__*/_react.default.createElement("p", {
+    className: "address-1 rigsans-regular-normal-white-14px"
+  }, address2 ? address2 : ""));
+}
+
+var _default = AddressCol;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./AddressCol.css":"components/AddressCol/AddressCol.css"}],"components/Courses1/Courses1.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Courses1/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Header = _interopRequireDefault(require("../Header"));
+
+var _Copyright = _interopRequireDefault(require("../Copyright"));
+
+var _MoreAboutUsCol = _interopRequireDefault(require("../MoreAboutUsCol"));
+
+var _HelpCol = _interopRequireDefault(require("../HelpCol"));
+
+var _AddressCol = _interopRequireDefault(require("../AddressCol"));
+
+var _Group = _interopRequireDefault(require("../Group9740"));
+
+var _Group2 = _interopRequireDefault(require("../Group9741"));
+
+var _Group3 = _interopRequireDefault(require("../Group9743"));
+
+require("./Courses1.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Courses1(props) {
+  var video = props.video,
+      details = props.details,
+      title = props.title,
+      loremIpsumDolorS = props.loremIpsumDolorS,
+      thumbnail = props.thumbnail,
+      lessonTitle = props.lessonTitle,
+      presenter = props.presenter,
+      thumbnail2 = props.thumbnail2,
+      lessonTitle2 = props.lessonTitle2,
+      presenter2 = props.presenter2,
+      thumbnail3 = props.thumbnail3,
+      lessonTitle3 = props.lessonTitle3,
+      presenter3 = props.presenter3,
+      thumbnail4 = props.thumbnail4,
+      lessonTitle4 = props.lessonTitle4,
+      presenter4 = props.presenter4,
+      main_Background = props.main_Background,
+      logoIg = props.logoIg,
+      learned = props.learned,
+      divider = props.divider,
+      paragraph = props.paragraph,
+      headerProps = props.headerProps,
+      header2Props = props.header2Props,
+      copyrightProps = props.copyrightProps,
+      moreAboutUsColProps = props.moreAboutUsColProps,
+      helpColProps = props.helpColProps,
+      addressColProps = props.addressColProps,
+      group9740Props = props.group9740Props,
+      group9741Props = props.group9741Props,
+      group9743Props = props.group9743Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-center-horizontal"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "courses-1 screen"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group"
+  }, /*#__PURE__*/_react.default.createElement(_Header.default, {
+    logo: headerProps.logo ? headerProps.logo : "",
+    buttonProps: headerProps.buttonProps ? headerProps.buttonProps : ""
+  }), /*#__PURE__*/_react.default.createElement(_Header.default, {
+    logo: header2Props.logo ? header2Props.logo : "",
+    buttonProps: header2Props.buttonProps ? header2Props.buttonProps : ""
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "couse"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "video",
+    src: video ? video : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "details",
+    style: {
+      backgroundImage: "url(".concat(details ? details : "", ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "title rigsans-semi-bold-cello-36px"
+  }, title ? title : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lorem-ipsum-dolor-s"
+  }, loremIpsumDolorS ? loremIpsumDolorS : ""))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "course1"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "thumbnail",
+    src: thumbnail ? lessonTitle : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lesson-title rigsans-semi-bold-cello-36px"
+  }, lessonTitle ? lessonTitle : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "presenter rigsans-semi-bold-cello-21px"
+  }, presenter ? presenter : ""))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "course"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "thumbnail",
+    src: thumbnail2 ? thumbnail2 : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lesson-title rigsans-semi-bold-cello-36px"
+  }, lessonTitle2 ? lessonTitle2 : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "presenter-1 rigsans-semi-bold-cello-21px"
+  }, presenter2 ? presenter2 : ""))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "course"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "thumbnail",
+    src: thumbnail3 ? thumbnail3 : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lesson-title-1 rigsans-semi-bold-cello-36px"
+  }, lessonTitle3 ? lessonTitle3 : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "presenter-2 rigsans-semi-bold-cello-21px"
+  }, presenter3 ? presenter3 : ""))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "course"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "thumbnail",
+    src: thumbnail4 ? thumbnail4 : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lesson-title-1 rigsans-semi-bold-cello-36px"
+  }, lessonTitle4 ? lessonTitle4 : ""), /*#__PURE__*/_react.default.createElement("div", {
+    className: "presenter-3 rigsans-semi-bold-cello-21px"
+  }, presenter4 ? presenter4 : ""))))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group1-1"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "mainbackground",
+    src: main_Background ? main_Background : ""
+  }), /*#__PURE__*/_react.default.createElement(_Copyright.default, {
+    copyright_Left: copyrightProps.copyright_Left ? copyrightProps.copyright_Left : "",
+    copyright_Right: copyrightProps.copyright_Right ? copyrightProps.copyright_Right : ""
+  }), /*#__PURE__*/_react.default.createElement(_MoreAboutUsCol.default, {
+    moreFromUs: moreAboutUsColProps.moreFromUs ? moreAboutUsColProps.moreFromUs : "",
+    text1: moreAboutUsColProps.text1 ? moreAboutUsColProps.text1 : ""
+  }), /*#__PURE__*/_react.default.createElement(_HelpCol.default, {
+    help: helpColProps.help ? helpColProps.help : "",
+    text2: helpColProps.text2 ? helpColProps.text2 : ""
+  }), /*#__PURE__*/_react.default.createElement(_AddressCol.default, {
+    address: addressColProps.address ? addressColProps.address : "",
+    address2: addressColProps.address2 ? addressColProps.address2 : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "slogan"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "social"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
+    src: group9740Props.src ? group9740Props.src : ""
+  }), /*#__PURE__*/_react.default.createElement(_Group2.default, {
+    src: group9741Props.src ? group9741Props.src : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "ig"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "logo-ig",
+    src: logoIg ? logoIg : ""
+  })), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    src: group9743Props.src ? group9743Props.src : ""
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "learned playfairdisplay-bold-dodger-blue-48px"
+  }, learned ? learned : ""), /*#__PURE__*/_react.default.createElement("img", {
+    className: "divider",
+    src: divider ? divider : ""
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "paragraph rigsans-regular-normal-white-18px"
+  }, paragraph ? paragraph : "")))))));
+}
+
+var _default = Courses1;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Header":"components/Header/index.jsx","../Copyright":"components/Copyright/index.jsx","../MoreAboutUsCol":"components/MoreAboutUsCol/index.jsx","../HelpCol":"components/HelpCol/index.jsx","../AddressCol":"components/AddressCol/index.jsx","../Group9740":"components/Group9740/index.jsx","../Group9741":"components/Group9741/index.jsx","../Group9743":"components/Group9743/index.jsx","./Courses1.css":"components/Courses1/Courses1.css"}],"components/Home1/Home1.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -34963,9 +35673,15 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactRouterDom = require("react-router-dom");
 
+var _Community = _interopRequireDefault(require("./components/Community"));
+
 var _Home = _interopRequireDefault(require("./components/Home"));
 
 var _Courses = _interopRequireDefault(require("./components/Courses"));
+
+var _Courses2 = _interopRequireDefault(require("./components/Courses3"));
+
+var _Courses3 = _interopRequireDefault(require("./components/Courses1"));
 
 var _Home2 = _interopRequireDefault(require("./components/Home1"));
 
@@ -34973,10 +35689,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function App() {
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
-    path: "/"
+    path: "/community"
+  }, /*#__PURE__*/_react.default.createElement(_Community.default, communityData)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+    path: "/home"
   }, /*#__PURE__*/_react.default.createElement(_Home.default, homeData)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/courses"
   }, /*#__PURE__*/_react.default.createElement(_Courses.default, coursesData)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+    path: "/courses-3"
+  }, /*#__PURE__*/_react.default.createElement(_Courses2.default, courses3Data)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+    path: "/courses-1"
+  }, /*#__PURE__*/_react.default.createElement(_Courses3.default, courses1Data)), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|home-1)"
   }, /*#__PURE__*/_react.default.createElement(_Home2.default, home1Data))));
 }
@@ -34985,6 +35707,115 @@ var _default = App;
 exports.default = _default;
 var loginData = {
   children: "LOGIN"
+};
+var buttonData = {
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  loginProps: loginData
+};
+var headerData = {
+  logo: "Learned",
+  buttonProps: buttonData
+};
+var login2Data = {
+  children: "LOGIN"
+};
+var q2Data = {
+  question: "How do I undo the most recent local commits in Git?",
+  breifDescription: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "I accidentally committed the wrong files to Git, but didn't push the commit to the server yet. How can I undo those commits from the ", /*#__PURE__*/_react.default.createElement("br", null), "local repository? The only way seems to be to copy the edits in ..."),
+  askedAt27072021: "Asked at 27/07/2021",
+  byAngKahShin: "By Ang Kah Shin"
+};
+var userInfoData = {
+  askedAt23072021: "Asked at 23/07/2021",
+  byChangYongFu: "By Chang Yong Fu"
+};
+var userInfo2Data = {
+  askedAt23072021: "Asked at 22/07/2021",
+  byChangYongFu: "By Tan Kah Shin",
+  className: "user-info-4"
+};
+var q22Data = {
+  question: "How do I rename a local Git branch?",
+  breifDescription: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "I don't want to rename a remote branch, as described in Rename master branch for both local and remote Git repositories. ", /*#__PURE__*/_react.default.createElement("br", null), "How can I rename a local branch which hasn't been pushed to a remote branch? ..."),
+  askedAt27072021: "Asked at 21/07/2021",
+  byAngKahShin: "Xenon Shi",
+  className: "community-item"
+};
+var copyrightData = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsColData = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpColData = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressColData = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group9740Data = {
+  src: "/img/logo-fb@1x.png"
+};
+var group9741Data = {
+  src: "/img/logo-twitter@1x.png"
+};
+var group9743Data = {
+  src: "/img/file-@1x.png"
+};
+var footerData = {
+  main_Background: "/img/path-2954@1x.png",
+  logoIg: "/img/file-@1x.png",
+  learned: "Learned",
+  divider: "/img/path-6406@1x.png",
+  paragraph: "Find your next home within seconds",
+  copyrightProps: copyrightData,
+  moreAboutUsColProps: moreAboutUsColData,
+  helpColProps: helpColData,
+  addressColProps: addressColData,
+  group9740Props: group9740Data,
+  group9741Props: group9741Data,
+  group9743Props: group9743Data
+};
+var communityData = {
+  logo: "Learned",
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  rectangle143: "/img/rectangle-143@1x.png",
+  path2922: "/img/path-2922@1x.png",
+  search: "Search",
+  text3: "Type out your question",
+  question: "Why is processing a sorted array faster than processing an unsorted array?",
+  breifDescription: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Here is a piece of C++ code that shows some very peculiar behavior. For some strange reason, sorting the data miraculously makes the ", /*#__PURE__*/_react.default.createElement("br", null), "code almost six times faster: #include <algorithm> #include &..."),
+  askedAt29072021: "Asked at 29/07/2021",
+  byShiTingxiao: "By Shi Tingxiao",
+  question2: "How do I delete a Git branch locally and remotely?",
+  breifDescription2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "I want to delete a branch both locally and remotely. Failed Attempts to Delete a Remote Branch $ git branch -d remotes/origin/", /*#__PURE__*/_react.default.createElement("br", null), "bugfix error: branch 'remotes/origin/bugfix' not found. $ git branch -d ..."),
+  askedAt24072021: "Asked at 24/07/2021",
+  byCodyHan: "By Cody Han",
+  question3: "What is the difference between 'git pull' and 'git fetch'?",
+  breifDescription3: "What are the differences between git pull and git fetch?",
+  question4: "What does the “yield” keyword do?",
+  breifDescription4: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "What is the use of the yield keyword in Python? What does it do? For example, I'm trying to understand this code1: ", /*#__PURE__*/_react.default.createElement("br", null), "def _get_child_candidates(self, distance, min_dist, max_dist): if self._leftchild ..."),
+  headerProps: headerData,
+  loginProps: login2Data,
+  q2Props: q2Data,
+  userInfoProps: userInfoData,
+  userInfo2Props: userInfo2Data,
+  q22Props: q22Data,
+  footerProps: footerData
+};
+var login3Data = {
+  children: "LOGIN",
+  className: "login-button-3"
 };
 var listingBlockData = {
   thumbnail: "/img/house-thumbnail@1x.png",
@@ -35003,9 +35834,27 @@ var listingBlock2Data = {
   students: "985 Students",
   time: "20h 45m",
   rating: "4.9 Rating",
-  className: "listing-block-2"
+  className: "listing-block-6"
+};
+var listingBlock22Data = {
+  thumbnail: "/img/house-thumbnail-2@1x.png",
+  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
+  students: "350 Students",
+  time: "7h 15m",
+  rating: "4.7 Rating"
 };
 var listingBlock3Data = {
+  thumbnail: "/img/house-thumbnail-3@1x.png",
+  courseTitle: "Intro To H2 Mathmatics",
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
+  students: "702 Students",
+  time: "10h 25m",
+  rating: "4.9 Rating"
+};
+var listingBlock4Data = {
   thumbnail: "/img/house-thumbnail-4@1x.png",
   courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Data Visualization for ", /*#__PURE__*/_react.default.createElement("br", null), "Statistical Analysis"),
   likeButton: "/img/heart-1@1x.png",
@@ -35013,9 +35862,9 @@ var listingBlock3Data = {
   students: "251 Students",
   time: "5h 40m",
   rating: "4.8 Rating",
-  className: "listing-block-2"
+  className: "listing-block-7"
 };
-var listingBlock4Data = {
+var listingBlock5Data = {
   thumbnail: "/img/house-thumbnail-5@1x.png",
   courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Mathmatics for ", /*#__PURE__*/_react.default.createElement("br", null), "Artificial Intellegence"),
   likeButton: "/img/heart-1@1x.png",
@@ -35023,48 +35872,60 @@ var listingBlock4Data = {
   students: "340 Students",
   time: "3h 30m",
   rating: "4.9 Rating",
-  className: "listing-block-10"
+  className: "listing-block-8"
 };
-var group9740Data = {
+var copyright2Data = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsCol2Data = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpCol2Data = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressCol2Data = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group97402Data = {
   src: "/img/logo-fb@1x.png"
 };
-var group9741Data = {
+var group97412Data = {
   src: "/img/logo-twitter@1x.png"
 };
 var group9742Data = {
   src: "/img/file-@1x.png"
 };
-var group9743Data = {
+var group97432Data = {
   src: "/img/file-@1x.png"
 };
-var footerData = {
+var footer3Data = {
   main_Background: "/img/path-2954@1x.png",
-  copyright_Left: "© Copyright 2021, Learned.com",
-  copyright_Right: "Terms & Condition    |   Privacy Policy",
-  moreFromUs: "More from us",
-  text10: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact"),
-  help: "Help?",
-  text11: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy"),
-  address: "Address",
-  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
-  learned: "Learned",
+  copyright_Left: "Learned",
   divider: "/img/path-6406@1x.png",
-  paragraph: "Find your next home within seconds",
-  group9740Props: group9740Data,
-  group9741Props: group9741Data,
+  copyright_Right: "Find your next home within seconds",
+  group9740Props: copyright2Data,
+  group9743Props: moreAboutUsCol2Data,
+  group9743Props2: helpCol2Data,
+  group9743Props3: addressCol2Data,
+  group9740Props2: group97402Data,
+  group9741Props: group97412Data,
   group9742Props: group9742Data,
-  group9743Props: group9743Data
+  group9743Props4: group97432Data
 };
 var homeData = {
-  logo: "Learned",
   place: "Home",
   courses: "Courses",
   community: "Community",
   pricing: "Pricing",
+  logo: "Learned",
   todayIsTheDay: "Today is the day",
   divider: "/img/path-1@1x.png",
   todayIsTheDay2: "Today is the day",
-  text1: "To learn from the best in town",
+  text4: "To learn from the best in town",
   inputType: "text",
   inputPlaceholder: "Your email address...",
   freeSignUp: "FREE SIGN UP",
@@ -35072,72 +35933,67 @@ var homeData = {
   spanText2: "Terms and Conditions",
   spanText3: " and ",
   spanText4: "Privacy Policy",
-  overlapGroup: "/img/van-tay-media-pc-hmxz0e-w-unsplash@1x.png",
+  overlapGroup1: "/img/van-tay-media-pc-hmxz0e-w-unsplash@1x.png",
   oLevelGrads: "O-level Grads",
   line1: "/img/line-1@1x.png",
-  text3: "The Straight A Student",
+  text6: "The Straight A Student",
   name: "Emma Huan",
   overlapGroup2: "/img/jeswin-thomas-h5fholbzt-m-unsplash@1x.png",
   aLevelGrads: "A-Level Grads",
   line2: "/img/line-2@1x.png",
-  text4: "Full Scholarship winner",
+  text7: "Full Scholarship winner",
   name2: "Megan Tan",
   overlapGroup3: "/img/jeswin-thomas-8nhqx4zi9wk-unsplash@1x.png",
   polyGrads: "Poly Grads",
   line3: "/img/line-3@1x.png",
   name3: "Christian Jowe",
   startUpYoungStar: "Start up young star",
-  overlapGroup4: "/img/linkedin-sales-solutions-ei50zda-l8y-unsplash@1x.png",
+  overlapGroup5: "/img/linkedin-sales-solutions-ei50zda-l8y-unsplash@1x.png",
   gradient: "/img/gradient@1x.png",
   uniGrads: "Uni Grads",
   line4: "/img/line-4@1x.png",
   name4: "Muhammad Farhan",
-  text5: "Current Google Enginner",
-  overlapGroup5: "/img/jeswin-thomas-fixxqdwpj2g-unsplash@1x.png",
+  text8: "Current Google Enginner",
+  overlapGroup6: "/img/jeswin-thomas-fixxqdwpj2g-unsplash@1x.png",
   gradient2: "/img/gradient-1@1x.png",
   psleGrads: "PSLE Grads",
   path2: "/img/path-2@1x.png",
-  text6: "Passed with flying color",
+  text9: "Passed with flying color",
   name5: "Andy Zhang",
-  text7: "New Classes Every Week",
-  overlapGroup6: "/img/path-3-1@1x.png",
+  text10: "New Classes Every Week",
+  overlapGroup12: "/img/path-3-1@1x.png",
   x99Classes: "99+ Classes",
-  text8: "From the past year student",
-  overlapGroup1: "/img/path-3-1@1x.png",
-  x80Subject: "80+ Subject",
-  text9: "From PSLE to University",
+  text11: "From the past year student",
   overlapGroup22: "/img/path-3-1@1x.png",
+  x80Subject: "80+ Subject",
+  text12: "From PSLE to University",
+  overlapGroup32: "/img/path-3-1@1x.png",
   x20Lessons: "20+ Lessons",
   averagePerClass: "Average Per Class",
-  overlapGroup32: "/img/path-3-1@1x.png",
+  overlapGroup4: "/img/path-3-1@1x.png",
   address: "30 Mins",
   averagePerLesson: "Average Per Lesson",
   guessWhatYouLike: "Guess what you like",
-  thumbnail: "/img/house-thumbnail-2@1x.png",
-  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
-  likeButton: "/img/heart-1@1x.png",
-  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
-  students: "350 Students",
-  time: "7h 15m",
-  rating: "4.7 Rating",
-  thumbnail2: "/img/house-thumbnail-3@1x.png",
-  courseTitle2: "Intro To H2 Mathmatics",
-  likeButton2: "/img/heart-1@1x.png",
-  lecture2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
-  students2: "702 Students",
-  time2: "10h 25m",
-  rating2: "4.9 Rating",
   button: "Sign Up Now",
-  loginProps: loginData,
+  loginProps: login3Data,
   listingBlockProps: listingBlockData,
   listingBlock2Props: listingBlock2Data,
+  listingBlock2Props2: listingBlock22Data,
   listingBlock3Props: listingBlock3Data,
-  listingBlock4Props: listingBlock4Data,
-  footerProps: footerData
+  listingBlock3Props2: listingBlock4Data,
+  listingBlock4Props: listingBlock5Data,
+  footer3Props: footer3Data
 };
-var login2Data = {
-  children: "LOGIN",
-  className: "login-button"
+var login4Data = {
+  children: "LOGIN"
+};
+var button2Data = {
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  className: "button-3",
+  loginProps: login4Data
 };
 var group9831Data = {
   line3: "/img/line-3-1@1x.png",
@@ -35162,7 +36018,7 @@ var group98314Data = {
   className: "group-9831-1"
 };
 var group98352Data = {
-  className: "button-5",
+  className: "button-8",
   group9831Props: group98313Data,
   group98312Props: group98314Data
 };
@@ -35176,7 +36032,7 @@ var group98316Data = {
   className: "group-9831-1"
 };
 var group98353Data = {
-  className: "button-6",
+  className: "button-9",
   group9831Props: group98315Data,
   group98312Props: group98316Data
 };
@@ -35190,7 +36046,7 @@ var group98318Data = {
   className: "group-9831-1"
 };
 var group98354Data = {
-  className: "button-7",
+  className: "button-10",
   group9831Props: group98317Data,
   group98312Props: group98318Data
 };
@@ -35230,18 +36086,13 @@ var searchBarData = {
   group98354Props: group98354Data,
   group98355Props: group98355Data
 };
-var headerData = {
+var header3Data = {
   logo: "Learned",
-  place: "Home",
-  courses: "Courses",
-  community: "Community",
-  pricing: "Pricing",
-  loginProps: login2Data,
+  loginProps: button2Data,
   group98354Props: searchBarData
 };
-var login3Data = {
-  children: "LOGIN",
-  className: "login-button"
+var login5Data = {
+  children: "LOGIN"
 };
 var group983111Data = {
   line3: "/img/line-3-1@1x.png",
@@ -35266,7 +36117,7 @@ var group983114Data = {
   className: "group-9831-1"
 };
 var group98357Data = {
-  className: "button-5",
+  className: "button-8",
   group9831Props: group983113Data,
   group98312Props: group983114Data
 };
@@ -35280,7 +36131,7 @@ var group983116Data = {
   className: "group-9831-1"
 };
 var group98358Data = {
-  className: "button-6",
+  className: "button-9",
   group9831Props: group983115Data,
   group98312Props: group983116Data
 };
@@ -35294,7 +36145,7 @@ var group983118Data = {
   className: "group-9831-1"
 };
 var group98359Data = {
-  className: "button-7",
+  className: "button-10",
   group9831Props: group983117Data,
   group98312Props: group983118Data
 };
@@ -35328,30 +36179,42 @@ var searchBar2Data = {
   any4: "Any",
   moreFilter: "/img/rectangle-133@1x.png",
   moreFilter2: "More Filter",
+  className: "search-bar-1",
   group9835Props: group98356Data,
   group98352Props: group98357Data,
   group98353Props: group98358Data,
   group98354Props: group98359Data,
   group98355Props: group983510Data
 };
-var listingBlock5Data = {
+var listingBlock6Data = {
   thumbnail: "/img/house-thumbnail@1x.png",
   courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Full stack Web Development", /*#__PURE__*/_react.default.createElement("br", null), "with React and PHP"),
   likeButton: "/img/heart-1@1x.png",
   lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "John Harper", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
   students: "567 Students",
   time: "32h 25m",
-  rating: "4.8 Rating"
+  rating: "4.8 Rating",
+  className: "listing-block"
 };
-var listingBlock6Data = {
-  thumbnail: "/img/house-thumbnail-1@1x.png",
-  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "2021 Complete Python ", /*#__PURE__*/_react.default.createElement("br", null), "Bootcamp Zero to Hero"),
+var listingBlock23Data = {
+  thumbnail: "/img/house-thumbnail-2@1x.png",
+  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
   likeButton: "/img/heart-1@1x.png",
-  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Krilly Zanteck", /*#__PURE__*/_react.default.createElement("br", null), "NUS Current Student"),
-  students: "985 Students",
-  time: "20h 45m",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
+  students: "350 Students",
+  time: "7h 15m",
+  rating: "4.7 Rating",
+  className: "listing-block-12"
+};
+var listingBlock32Data = {
+  thumbnail: "/img/house-thumbnail-3@1x.png",
+  courseTitle: "Intro To H2 Mathmatics",
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
+  students: "702 Students",
+  time: "10h 25m",
   rating: "4.9 Rating",
-  className: "listing-block-4"
+  className: "listing-block-15"
 };
 var listingBlock7Data = {
   thumbnail: "/img/house-thumbnail-4@1x.png",
@@ -35361,7 +36224,7 @@ var listingBlock7Data = {
   students: "251 Students",
   time: "5h 40m",
   rating: "4.8 Rating",
-  className: "listing-block-4"
+  className: "listing-block-9"
 };
 var listingBlock8Data = {
   thumbnail: "/img/house-thumbnail-5@1x.png",
@@ -35371,7 +36234,7 @@ var listingBlock8Data = {
   students: "340 Students",
   time: "3h 30m",
   rating: "4.9 Rating",
-  className: "listing-block-5"
+  className: "listing-block-1"
 };
 var listingBlock9Data = {
   thumbnail: "/img/house-thumbnail-6@1x.png",
@@ -35380,7 +36243,8 @@ var listingBlock9Data = {
   lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Alan Liaw", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
   students: "535 Students",
   time: "32h 25m",
-  rating: "4.5 Rating"
+  rating: "4.5 Rating",
+  className: "listing-block"
 };
 var listingBlock10Data = {
   thumbnail: "/img/house-thumbnail-7@1x.png",
@@ -35390,7 +36254,7 @@ var listingBlock10Data = {
   students: "124 Students",
   time: "32h 25m",
   rating: "4.9 Rating",
-  className: "listing-block-4"
+  className: "listing-block-10"
 };
 var listingBlock11Data = {
   thumbnail: "/img/thumbnail-8@1x.png",
@@ -35400,74 +36264,240 @@ var listingBlock11Data = {
   students: "657 Students",
   time: "32h 25m",
   rating: "4.6 Rating",
-  className: "listing-block-5"
+  className: "listing-block-1"
 };
-var group97402Data = {
+var copyright3Data = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsCol3Data = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpCol3Data = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressCol3Data = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group97403Data = {
   src: "/img/logo-fb@1x.png"
 };
-var group97412Data = {
+var group97413Data = {
   src: "/img/logo-twitter@1x.png"
 };
 var group97422Data = {
   src: "/img/file-@1x.png"
 };
-var group97432Data = {
+var group97433Data = {
+  src: "/img/file-@1x.png"
+};
+var footer32Data = {
+  main_Background: "/img/path-2954@1x.png",
+  copyright_Left: "Learned",
+  divider: "/img/path-6406@1x.png",
+  copyright_Right: "Find your next home within seconds",
+  className: "footer-4",
+  group9740Props: copyright3Data,
+  group9743Props: moreAboutUsCol3Data,
+  group9743Props2: helpCol3Data,
+  group9743Props3: addressCol3Data,
+  group9740Props2: group97403Data,
+  group9741Props: group97413Data,
+  group9742Props: group97422Data,
+  group9743Props4: group97433Data
+};
+var coursesData = {
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  logo: "Learned",
+  thumbnail: "/img/house-thumbnail-1@1x.png",
+  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "2021 Complete Python ", /*#__PURE__*/_react.default.createElement("br", null), "Bootcamp Zero to Hero"),
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Krilly Zanteck", /*#__PURE__*/_react.default.createElement("br", null), "NUS Current Student"),
+  students: "985 Students",
+  time: "20h 45m",
+  rating: "4.9 Rating",
+  x14395B: "#14395B",
+  header3Props: header3Data,
+  loginProps: login5Data,
+  searchBarProps: searchBar2Data,
+  listingBlockProps: listingBlock6Data,
+  listingBlock2Props: listingBlock23Data,
+  listingBlock3Props: listingBlock32Data,
+  listingBlock2Props2: listingBlock7Data,
+  listingBlock3Props2: listingBlock8Data,
+  listingBlock4Props: listingBlock9Data,
+  listingBlock5Props: listingBlock10Data,
+  listingBlock6Props: listingBlock11Data,
+  footer3Props: footer32Data
+};
+var login6Data = {
+  children: "LOGIN"
+};
+var copyright4Data = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsCol4Data = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpCol4Data = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressCol4Data = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group97404Data = {
+  src: "/img/logo-fb@1x.png"
+};
+var group97414Data = {
+  src: "/img/logo-twitter@1x.png"
+};
+var group97434Data = {
   src: "/img/file-@1x.png"
 };
 var footer2Data = {
   main_Background: "/img/path-2954@1x.png",
-  copyright_Left: "© Copyright 2021, Learned.com",
-  copyright_Right: "Terms & Condition    |   Privacy Policy",
-  moreFromUs: "More from us",
-  text10: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact"),
-  help: "Help?",
-  text11: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy"),
-  address: "Address",
-  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
+  logoIg: "/img/file-@1x.png",
   learned: "Learned",
   divider: "/img/path-6406@1x.png",
   paragraph: "Find your next home within seconds",
   className: "footer-1",
-  group9740Props: group97402Data,
-  group9741Props: group97412Data,
-  group9742Props: group97422Data,
-  group9743Props: group97432Data
+  copyrightProps: copyright4Data,
+  moreAboutUsColProps: moreAboutUsCol4Data,
+  helpColProps: helpCol4Data,
+  addressColProps: addressCol4Data,
+  group9740Props: group97404Data,
+  group9741Props: group97414Data,
+  group9743Props: group97434Data
 };
-var coursesData = {
+var courses3Data = {
   logo: "Learned",
   place: "Home",
   courses: "Courses",
   community: "Community",
   pricing: "Pricing",
-  thumbnail: "/img/house-thumbnail-2@1x.png",
-  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
-  likeButton: "/img/heart-1@1x.png",
-  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
-  students: "350 Students",
-  time: "7h 15m",
-  rating: "4.7 Rating",
-  thumbnail2: "/img/house-thumbnail-3@1x.png",
-  courseTitle2: "Intro To H2 Mathmatics",
-  likeButton2: "/img/heart-1@1x.png",
-  lecture2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
-  students2: "702 Students",
-  time2: "10h 25m",
-  rating2: "4.9 Rating",
-  headerProps: headerData,
-  loginProps: login3Data,
-  searchBarProps: searchBar2Data,
-  listingBlockProps: listingBlock5Data,
-  listingBlock2Props: listingBlock6Data,
-  listingBlock3Props: listingBlock7Data,
-  listingBlock4Props: listingBlock8Data,
-  listingBlock5Props: listingBlock9Data,
-  listingBlock6Props: listingBlock10Data,
-  listingBlock7Props: listingBlock11Data,
+  text19: "Check out our awesome plans!",
+  overlapGroup2: "/img/backtround-1@1x.png",
+  starter: "Starter",
+  description: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "- Access all video lectures ", /*#__PURE__*/_react.default.createElement("br", null), "for your select grade"),
+  x399Mo: "$3.99/Mo",
+  iMReady: "I'm ready",
+  overlapGroup3: "/img/backtround-1@1x.png",
+  theStudyOne: "The Study One",
+  description2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "- Access all video lectures ", /*#__PURE__*/_react.default.createElement("br", null), "on the platform", /*#__PURE__*/_react.default.createElement("br", null), " - Raise questions to ", /*#__PURE__*/_react.default.createElement("br", null), "lecturers"),
+  x699Mo: "$6.99/Mo",
+  letSGo: "Let's go",
+  overlapGroup4: "/img/backtround-1@1x.png",
+  theMonster: "The Monster",
+  description3: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "- Access all video lectures ", /*#__PURE__*/_react.default.createElement("br", null), "on the platform", /*#__PURE__*/_react.default.createElement("br", null), "- Get personal contact", /*#__PURE__*/_react.default.createElement("br", null), " with the lecturers"),
+  x999Mo: "$9.99/Mo",
+  hitMe: "Hit me",
+  spanText: "Details about ",
+  spanText2: "schools",
+  spanText3: " that's working with us",
+  loginProps: login6Data,
   footerProps: footer2Data
 };
-var login4Data = {
-  children: "LOGIN",
-  className: "login-button-2"
+var login7Data = {
+  children: "LOGIN"
+};
+var button3Data = {
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  loginProps: login7Data
+};
+var header2Data = {
+  logo: "Learned",
+  buttonProps: button3Data
+};
+var login8Data = {
+  children: "LOGIN"
+};
+var button4Data = {
+  place: "Home",
+  courses: "Courses",
+  community: "Community",
+  pricing: "Pricing",
+  loginProps: login8Data
+};
+var header4Data = {
+  logo: "Learned",
+  buttonProps: button4Data
+};
+var copyright5Data = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsCol5Data = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpCol5Data = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressCol5Data = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group97405Data = {
+  src: "/img/logo-fb@1x.png"
+};
+var group97415Data = {
+  src: "/img/logo-twitter@1x.png"
+};
+var group97435Data = {
+  src: "/img/file-@1x.png"
+};
+var footer4Data = {
+  main_Background: "/img/path-2954@1x.png",
+  logoIg: "/img/file-@1x.png",
+  learned: "Learned",
+  divider: "/img/path-6406@1x.png",
+  paragraph: "Find your next home within seconds",
+  className: "footer-2",
+  copyrightProps: copyright5Data,
+  moreAboutUsColProps: moreAboutUsCol5Data,
+  helpColProps: helpCol5Data,
+  addressColProps: addressCol5Data,
+  group9740Props: group97405Data,
+  group9741Props: group97415Data,
+  group9743Props: group97435Data
+};
+var courses1Data = {
+  video: "/img/video@1x.png",
+  details: "/img/rectangle-138@1x.png",
+  title: "Title",
+  loremIpsumDolorS: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ", /*#__PURE__*/_react.default.createElement("br", null), "magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo ", /*#__PURE__*/_react.default.createElement("br", null), "consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ", /*#__PURE__*/_react.default.createElement("br", null), "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""),
+  thumbnail: "/img/thumbnail@1x.png",
+  lessonTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Title............", /*#__PURE__*/_react.default.createElement("br", null), "............."),
+  presenter: "Presenter",
+  thumbnail2: "/img/thumbnail-1@1x.png",
+  lessonTitle2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Title............", /*#__PURE__*/_react.default.createElement("br", null), "............."),
+  presenter2: "Presenter",
+  thumbnail3: "/img/thumbnail-2@1x.png",
+  lessonTitle3: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Title............", /*#__PURE__*/_react.default.createElement("br", null), "............."),
+  presenter3: "Presenter",
+  thumbnail4: "/img/thumbnail-3@1x.png",
+  lessonTitle4: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Title............", /*#__PURE__*/_react.default.createElement("br", null), "............."),
+  presenter4: "Presenter",
+  headerProps: header2Data,
+  headerProps2: header4Data,
+  copyrightProps: footer4Data
+};
+var login9Data = {
+  children: "LOGIN"
 };
 var group983121Data = {
   line3: "/img/line-3-1@1x.png",
@@ -35492,7 +36522,7 @@ var group983124Data = {
   className: "group-9831-3"
 };
 var group983512Data = {
-  className: "button-9",
+  className: "button-12",
   group9831Props: group983123Data,
   group98312Props: group983124Data
 };
@@ -35506,7 +36536,7 @@ var group983126Data = {
   className: "group-9831-3"
 };
 var group983513Data = {
-  className: "button-10",
+  className: "button-13",
   group9831Props: group983125Data,
   group98312Props: group983126Data
 };
@@ -35520,7 +36550,7 @@ var group983128Data = {
   className: "group-9831-3"
 };
 var group983514Data = {
-  className: "button-11",
+  className: "button-14",
   group9831Props: group983127Data,
   group98312Props: group983128Data
 };
@@ -35567,7 +36597,8 @@ var listingBlock12Data = {
   lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "John Harper", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
   students: "567 Students",
   time: "32h 25m",
-  rating: "4.8 Rating"
+  rating: "4.8 Rating",
+  className: "listing-block-2"
 };
 var listingBlock13Data = {
   thumbnail: "/img/house-thumbnail-1@1x.png",
@@ -35577,7 +36608,27 @@ var listingBlock13Data = {
   students: "985 Students",
   time: "20h 45m",
   rating: "4.9 Rating",
-  className: "listing-block-7"
+  className: "listing-block-4"
+};
+var listingBlock24Data = {
+  thumbnail: "/img/house-thumbnail-2@1x.png",
+  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
+  students: "350 Students",
+  time: "7h 15m",
+  rating: "4.7 Rating",
+  className: "listing-block-13"
+};
+var listingBlock33Data = {
+  thumbnail: "/img/house-thumbnail-3@1x.png",
+  courseTitle: "Intro To H2 Mathmatics",
+  likeButton: "/img/heart-1@1x.png",
+  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
+  students: "702 Students",
+  time: "10h 25m",
+  rating: "4.9 Rating",
+  className: "listing-block-16"
 };
 var listingBlock14Data = {
   thumbnail: "/img/house-thumbnail-4@1x.png",
@@ -35587,7 +36638,7 @@ var listingBlock14Data = {
   students: "251 Students",
   time: "5h 40m",
   rating: "4.8 Rating",
-  className: "listing-block-7"
+  className: "listing-block-4"
 };
 var listingBlock15Data = {
   thumbnail: "/img/house-thumbnail-5@1x.png",
@@ -35597,7 +36648,7 @@ var listingBlock15Data = {
   students: "340 Students",
   time: "3h 30m",
   rating: "4.9 Rating",
-  className: "listing-block-8"
+  className: "listing-block-3"
 };
 var listingBlock16Data = {
   thumbnail: "/img/house-thumbnail-6@1x.png",
@@ -35606,7 +36657,8 @@ var listingBlock16Data = {
   lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Alan Liaw", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
   students: "535 Students",
   time: "32h 25m",
-  rating: "4.5 Rating"
+  rating: "4.5 Rating",
+  className: "listing-block-2"
 };
 var listingBlock17Data = {
   thumbnail: "/img/house-thumbnail-7@1x.png",
@@ -35616,7 +36668,7 @@ var listingBlock17Data = {
   students: "124 Students",
   time: "32h 25m",
   rating: "4.9 Rating",
-  className: "listing-block-7"
+  className: "listing-block-4"
 };
 var listingBlock18Data = {
   thumbnail: "/img/thumbnail-8@1x.png",
@@ -35626,38 +36678,50 @@ var listingBlock18Data = {
   students: "657 Students",
   time: "32h 25m",
   rating: "4.6 Rating",
-  className: "listing-block-8"
+  className: "listing-block-3"
 };
-var group97403Data = {
+var copyright6Data = {
+  copyright_Left: "© Copyright 2021, Learned.com",
+  copyright_Right: "Terms & Condition    |   Privacy Policy"
+};
+var moreAboutUsCol6Data = {
+  moreFromUs: "More from us",
+  text1: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact")
+};
+var helpCol6Data = {
+  help: "Help?",
+  text2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy")
+};
+var addressCol6Data = {
+  address: "Address",
+  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic")
+};
+var group97406Data = {
   src: "/img/logo-fb@1x.png"
 };
-var group97413Data = {
+var group97416Data = {
   src: "/img/logo-twitter@1x.png"
 };
 var group97423Data = {
   src: "/img/file-@1x.png"
 };
-var group97433Data = {
+var group97436Data = {
   src: "/img/file-@1x.png"
 };
-var footer3Data = {
+var footer33Data = {
   main_Background: "/img/path-2954@1x.png",
-  copyright_Left: "© Copyright 2021, Learned.com",
-  copyright_Right: "Terms & Condition    |   Privacy Policy",
-  moreFromUs: "More from us",
-  text10: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "About", /*#__PURE__*/_react.default.createElement("br", null), "Partners", /*#__PURE__*/_react.default.createElement("br", null), "Contact"),
-  help: "Help?",
-  text11: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "FAQ", /*#__PURE__*/_react.default.createElement("br", null), "Term & Conditi0on", /*#__PURE__*/_react.default.createElement("br", null), "Policy", /*#__PURE__*/_react.default.createElement("br", null), "Privacy"),
-  address: "Address",
-  address2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "500 Dover Rd, Singapore 139651", /*#__PURE__*/_react.default.createElement("br", null), "Singapore Polytechnic"),
-  learned: "Learned",
+  copyright_Left: "Learned",
   divider: "/img/path-6406@1x.png",
-  paragraph: "Find your next home within seconds",
-  className: "footer-2",
-  group9740Props: group97403Data,
-  group9741Props: group97413Data,
+  copyright_Right: "Find your next home within seconds",
+  className: "footer-5",
+  group9740Props: copyright6Data,
+  group9743Props: moreAboutUsCol6Data,
+  group9743Props2: helpCol6Data,
+  group9743Props3: addressCol6Data,
+  group9740Props2: group97406Data,
+  group9741Props: group97416Data,
   group9742Props: group97423Data,
-  group9743Props: group97433Data
+  group9743Props4: group97436Data
 };
 var home1Data = {
   logo: "Learned",
@@ -35665,32 +36729,20 @@ var home1Data = {
   courses: "Courses",
   community: "Community",
   pricing: "Pricing",
-  thumbnail: "/img/house-thumbnail-2@1x.png",
-  courseTitle: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Intro To secondary 2", /*#__PURE__*/_react.default.createElement("br", null), "Mathmatics"),
-  likeButton: "/img/heart-1@1x.png",
-  lecture: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Ang Kah Shin", /*#__PURE__*/_react.default.createElement("br", null), "Ang Mo Kio Sec"),
-  students: "350 Students",
-  time: "7h 15m",
-  rating: "4.7 Rating",
-  thumbnail2: "/img/house-thumbnail-3@1x.png",
-  courseTitle2: "Intro To H2 Mathmatics",
-  likeButton2: "/img/heart-1@1x.png",
-  lecture2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Devyn Chew", /*#__PURE__*/_react.default.createElement("br", null), "Hwa Chong Institute"),
-  students2: "702 Students",
-  time2: "10h 25m",
-  rating2: "4.9 Rating",
-  loginProps: login4Data,
+  loginProps: login9Data,
   searchBarProps: searchBar3Data,
   listingBlockProps: listingBlock12Data,
   listingBlock2Props: listingBlock13Data,
-  listingBlock3Props: listingBlock14Data,
+  listingBlock2Props2: listingBlock24Data,
+  listingBlock3Props: listingBlock33Data,
+  listingBlock3Props2: listingBlock14Data,
   listingBlock4Props: listingBlock15Data,
   listingBlock5Props: listingBlock16Data,
   listingBlock6Props: listingBlock17Data,
   listingBlock7Props: listingBlock18Data,
-  footerProps: footer3Data
+  footer3Props: footer33Data
 };
-},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Home":"components/Home/index.jsx","./components/Courses":"components/Courses/index.jsx","./components/Home1":"components/Home1/index.jsx"}],"styleguide.css":[function(require,module,exports) {
+},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Community":"components/Community/index.jsx","./components/Home":"components/Home/index.jsx","./components/Courses":"components/Courses/index.jsx","./components/Courses3":"components/Courses3/index.jsx","./components/Courses1":"components/Courses1/index.jsx","./components/Home1":"components/Home1/index.jsx"}],"styleguide.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -35700,7 +36752,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./static/fonts/NotoSansCJKkr-Regular.otf":[["NotoSansCJKkr-Regular.e92e8137.otf","static/fonts/NotoSansCJKkr-Regular.otf"],"static/fonts/NotoSansCJKkr-Regular.otf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./static/fonts/NotoSansCJKkr-Regular.otf":[["NotoSansCJKkr-Regular.e92e8137.otf","static/fonts/NotoSansCJKkr-Regular.otf"],"static/fonts/NotoSansCJKkr-Regular.otf"],"./static/fonts/segoe-ui.ttf":[["segoe-ui.c0f00c9e.ttf","static/fonts/segoe-ui.ttf"],"static/fonts/segoe-ui.ttf"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -35744,7 +36796,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50257" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52002" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
